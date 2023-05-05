@@ -1,41 +1,45 @@
 import React from 'react';
 import clsx from 'clsx';
+import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Training',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Hier können wir etwas hinschreiben
       </>
     ),
+    to: "/docs/intro",
+    message: "See trainings",
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Consulting',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Hier auch
       </>
     ),
+    to: "/docs/intro",
+    message: "See consulting",
   },
   {
-    title: 'Powered by React',
+    title: 'Offerings',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Oder es löschen.
       </>
     ),
+    to: "/docs/intro",
+    message: "See offerings",
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description,to,message}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -44,6 +48,13 @@ function Feature({Svg, title, description}) {
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
         <p>{description}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to={to}>
+            {message}
+          </Link>
+        </div>
       </div>
     </div>
   );
