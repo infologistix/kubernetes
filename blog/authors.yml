@@ -1,17 +1,29 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+aviphan:
+  name: Suphanat Avipan
+  title: IT Consultant
+  url: https://github.com/suphanataviphan
+  image_url: https://github.com/suphanataviphan.png
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
-  url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
+gerhards:
+  name: Harald P. Gerhards
+  title: Senior IT Consultant | Head of Cloud Engineering
+  url: https://github.com/HPG84
+  image_url: https://github.com/HPG84.png
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+graap:
+  name: Nico Graap
+  title: IT Consultant
+  url: https://github.com/Nico-infologistix
+  image_url: https://github.com/Nico-infologistix.png
+
+padberg:
+  name: Marie Padberg
+  title: Data Scientist
+  url: https://github.com/MariePad
+  image_url: https://github.com/MariePad.png
+
+schmidt:
+  name: Paul Schmidt
+  title: Data Scientist
+  url: https://github.com/pickmylight
+  image_url: https://github.com/pickmylight.png

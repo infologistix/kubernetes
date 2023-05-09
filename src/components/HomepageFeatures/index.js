@@ -5,45 +5,45 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Training',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Platform Engineering',
+    image: "img/Cloud_Native_neu-1320x1320.png",
     description: (
       <>
-        Hier können wir etwas hinschreiben
+        Containerbasierte Lösungen auf Basis von Docker und Kubernetes
       </>
     ),
-    to: "/docs/intro",
-    message: "See trainings",
+    to: "/docs/platform",
+    message: "Mehr Infos",
   },
   {
-    title: 'Consulting',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Architektur + Cloud',
+    image: "img/Cloud_Native_neu-1320x1320.png",
     description: (
       <>
-        Hier auch
+        Implementierungen auf bare metal, in Ihrer private Cloud, bei Google, AWS oder Azure
       </>
     ),
-    to: "/docs/intro",
-    message: "See consulting",
+    to: "/docs/cloud",
+    message: "Mehr Infos",
   },
   {
-    title: 'Offerings',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Software Engineering + AI',
+    image: "img/AI_neu-1320x1320.png",
     description: (
       <>
-        Oder es löschen.
+        Entwicklung von Anwendungssoftware und künstlicher Intelligenz
       </>
     ),
-    to: "/docs/intro",
-    message: "See offerings",
+    to: "/docs/software",
+    message: "Mehr Infos",
   },
 ];
 
-function Feature({Svg, title, description,to,message}) {
+function Feature({image, title, description,to,message}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        <img className={styles.featureImage} src={image} alt="infologistix logo"/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

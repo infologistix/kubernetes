@@ -6,9 +6,9 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kubernetes',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Cloud Engineering',
+  tagline: 'Unsere Serviceleistungen im Überblick',
+  favicon: 'https://infologistix.de/wp-content/uploads/cropped-infologistix-Leistungsangebot-Data-Delivery-32x32.png',
 
   // Set the production url of your site here
   url: 'https://infologistix.github.io',
@@ -30,8 +30,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'de',
+    locales: ['de'],
   },
 
   presets: [
@@ -41,17 +41,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          //editUrl:
-          //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          blogTitle: 'Cloud Engineering Blog',
+          postsPerPage: 'ALL',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -66,75 +60,44 @@ const config = {
       // Replace with your project's social card
       //image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        //title: 'Services',
-        //logo: {
-        //  alt: 'My Site Logo',
-        //  src: 'img/logo.svg',
-        //},
+        title: 'Home',
+        logo: {
+          alt: 'Cloud Engineering Logo',
+          src: 'img/Logo-Mit.png',
+        },
         items: [
-          /*{
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },*/
-          {to: '/blog', label: 'Services', position: 'left'},
-          /*{
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },*/
+          {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
-          /*{
-            title: 'Docs',
-            items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
-            ],
-          }, */
-          /*{
-            title: 'Community',
-            items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },*/
           {
-            title: 'More',
+            title: 'Kontakt',
             items: [
-              /*{
-                label: 'Blog',
-                to: '/blog',
-              },*/
               {
                 label: 'infologistix GmbH',
                 href: 'https://infologistix.de/',
               },
+              {
+                html:`
+                <p>Gutenbergstr. 7 <br> 85748 Garching</p>
+                `
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                html:`
+                <p><br>Telefon: +49 8981885979 <br> Telefax: +49 89 99964206 <br>Mail: info@infologistix.de</p>
+                `
+              }, 
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} infologistix GmbH, Inc. Built with Docusaurus.`,
       },
-      /*prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
-      },*/
     }),
 };
 
