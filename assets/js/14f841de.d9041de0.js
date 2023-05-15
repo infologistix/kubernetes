@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[547],{2692:e=>{e.exports=JSON.parse('{"label":"Azure","permalink":"/kubernetes/blog/tags/azure","allTagsPath":"/kubernetes/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[593],{7919:e=>{e.exports=JSON.parse('{"permalink":"/kubernetes/blog","page":1,"postsPerPage":3,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Cloud Engineering Blog"}')}}]);

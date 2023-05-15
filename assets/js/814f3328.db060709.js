@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Testdaten Sampling","permalink":"/kubernetes/blog/testdata"},{"title":"Docker in WSL","permalink":"/kubernetes/blog/docker-in-wsl"}]}')}}]);
