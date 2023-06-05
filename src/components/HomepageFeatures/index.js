@@ -5,37 +5,37 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Platform Engineering',
+    title: 'Our projects',
     image: "img/Cloud_Native_neu-1320x1320.png",
     description: (
       <>
-        Containerbasierte Lösungen auf Basis von Docker und Kubernetes
+        List of all our projcts actual and finished
       </>
     ),
-    to: "/docs/platform",
-    message: "Mehr Infos",
+    to: "/docs/projects",
+    message: "More",
   },
   {
-    title: 'Architektur + Cloud',
+    title: 'Our services',
     image: "img/Cloud_Native_neu-1320x1320.png",
     description: (
       <>
-        Implementierungen auf bare metal, in Ihrer private Cloud, bei Google, AWS oder Azure
+        need help? See our services
       </>
     ),
-    to: "/docs/cloud",
-    message: "Mehr Infos",
+    to: "/docs/service",
+    message: "More",
   },
   {
-    title: 'Software Engineering + AI',
+    title: 'Our team',
     image: "img/AI_neu-1320x1320.png",
     description: (
       <>
-        Entwicklung von Anwendungssoftware und künstlicher Intelligenz
+        Overview of the team
       </>
     ),
-    to: "/docs/software",
-    message: "Mehr Infos",
+    to: "/docs/team",
+    message: "More",
   },
 ];
 

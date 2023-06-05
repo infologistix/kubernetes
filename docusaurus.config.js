@@ -6,8 +6,8 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cloud Engineering',
-  tagline: 'Unsere Serviceleistungen im Überblick',
+  title: 'KubeSpectra',
+  tagline: 'In a few days here will shine a fabulous homepage :)',
   favicon: 'https://infologistix.de/wp-content/uploads/cropped-infologistix-Leistungsangebot-Data-Delivery-32x32.png',
 
   // Set the production url of your site here
@@ -30,8 +30,8 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'de',
-    locales: ['de'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -44,7 +44,7 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogTitle: 'Cloud Engineering Blog',
+          blogTitle: 'KubeSpectra Blog',
           postsPerPage: 'ALL',
         },
         theme: {
@@ -62,7 +62,7 @@ const config = {
       navbar: {
         title: 'Home',
         logo: {
-          alt: 'Cloud Engineering Logo',
+          alt: 'KubeSpectra Logo',
           src: 'img/Logo-Mit.png',
         },
         items: [
@@ -71,32 +71,18 @@ const config = {
       },
       footer: {
         style: 'light',
-        links: [
+        /*links: [
           {
-            title: 'Kontakt',
+            title: 'Powered by',
             items: [
               {
                 label: 'infologistix GmbH',
                 href: 'https://infologistix.de/',
               },
-              {
-                html:`
-                <p>Gutenbergstr. 7 <br> 85748 Garching</p>
-                `
-              },
             ],
           },
-          {
-            items: [
-              {
-                html:`
-                <p><br>Telefon: +49 8981885979 <br> Telefax: +49 89 99964206 <br>Mail: info@infologistix.de</p>
-                `
-              }, 
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} infologistix GmbH, Inc. Built with Docusaurus.`,
+        ],*/
+        copyright: `Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,
       },
     }),
 };

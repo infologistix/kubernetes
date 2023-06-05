@@ -32,8 +32,8 @@ export default function Home() {
   //const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Cloud Engineering`}
-      description="Containerbasierte Lösungen auf basis von Docker und Kubernetes">
+      title={`KubeSpectra`}
+      description="Container based solutions with Docker and Kubernetes">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
