@@ -4,87 +4,88 @@ title: Docker in WSL
 authors: [aviphan, gerhards, graap, schmidt]
 tags: [Docker, WSL]
 ---
-Docker Desktop wird kostenplichtig. Wir zeigen Ihnen eine kostenfreie Alternative - Docker im Windows Subsystem for Linux (WSL)
+Docker Desktop becomes commercial, we show you a free alternative - Docker in Windows Subsystem for Linux (WSL)
 <!--truncate-->
 
-Die kostenfreien Produkte von Docker werden von Millionen Entwicklern verwendet, um Anwendungen zu erstellen, zu veröffentlichen und auszuführen – in Rechenzentren, der public cloud oder mit Docker Desktop auf dem lokalen PC. 55% der Entwickler nutzen Docker jeden Tag bei der Arbeit.
+Docker's free products are used by millions of developers to build, publish and run applications - in data centers, the public cloud or with Docker Desktop on the local PC. 
+55% of developers use Docker every day at work.
 
-#### Docker Desktop wird kostenpflichtig
-Doch die Firma Docker muss auch wirtschaftlich arbeiten und hat beschlossen, im Rahmen einer Umgestaltung des Geschäftsmodells Gebühren für Unternehmenskunden zu erheben. Ab dem 31.01.2022 wird jegliche Nutzung von Docker Desktop für Nutzer in Unternehmen mit mehr als 250 Beschäftigten oder einem Jahresumsatz von mehr als 10 Millionen Dollar kostenpflichtig sein. Ein Abonnement kostet dann je nach weiten genutzten Diensten und Zahlungsweise zwischen 7$ und 21$ pro Nutzer und Monat. Für Unternehmen und Behörden stellt sich daher die Frage, ob Docker Desktop die monatliche Gebühr wert ist oder ob es andere Optionen gibt.
+#### Docker Desktop becomes commercially viable
+But the Docker Company also needs to be profitable and has decided to charge enterprise customers as part of a business model redesign. Starting Jan. 31, 2022, any use of Docker Desktop will be chargeable for users at companies with more than 250 employees or more than $10 million in annual revenue. A subscription will then cost between $7 and $21 per user per month, depending on which services are widely used and how they are paid for. For enterprises and government agencies, this raises the question of whether Docker Desktop is worth the monthly fee or if there are other options.
 
-#### Docker Deamon und Docker Client weiterhin free and open source (FOSS)
-Der Docker Software Stack besteht neben der zukünftig kostenpflichtigen GUI aus kostenfreien, quelloffenen Komponenten, die die eigentliche Arbeit machen. Der Docker-Client ist ein Befehlszeilendienstprogramm, das die API des Docker Daemon bedient. Der Docker Deamon bildet das Herzstück der Container Laufzeitumgebung. Unter Linux können diese nativ und kostenfrei installiert und genutzt werden.
+#### Docker Deamon and Docker Client remain free and open source (FOSS)
+In addition to the GUI, which will be paid for in the future, the Docker software stack consists of free, open source components that do the actual work. The Docker Client is a command-line tool that serves the Docker Daemon API. The Docker Deamon is at the heart of the container runtime environment. On Linux, these can be installed and used natively and free of charge.
 
-#### Neue Wege unter Windows mit infologistix
-Unter Microsoft Windows 10 und Windows 11 muss man hingegen einen etwas aufwändigeren Weg beschreiten, um dem Lizensierungsmodell zu entgehen und Docker weiterhin kostenfrei auf dem lokalen PC zu nutzen. Aber wir von infologistix haben die Verwaltung dieser Tools so einfach gemacht wie die Nutzung des Internets. Von großen Rechenzentren abgeschaut, in denen Linux Server Docker als FOSS ausführen, nutzen wir ebendiese Tools für die lokalen Entwicklungsumgebung.
+#### New ways under Windows with infologistix
+On Microsoft Windows 10 and Windows 11, on the other hand, you have to take a slightly more elaborate route to escape the licensing model and continue using Docker for free on your local PC. But at infologistix, we've made managing these tools as easy as using the Internet. Copying from large data centers where Linux servers run Docker as FOSS, we use these same tools for the local development environment.
 
-**Wir haben die Installation von Docker so einfach gestaltet, dass nach der Aktivierung und Installation des Windows Subsystem für Linux nur noch ein Installationsprogramm ausgeführt werden muss. Als Bonus können Sie den Docker-Client selbst auf Ihrem lokalen Rechner installieren, indem Sie ihn herunterladen und einen Docker-Kontext konfigurieren, um die intern gehostete Docker-Plattform auf Windows Subsystem für Linux zu benutzen.**
+**We've made installing Docker as simple as running an installer after enabling and installing the Windows Subsystem for Linux. As a bonus, you can install the Docker client yourself on your local machine by downloading it and configuring a Docker context to use the internally hosted Docker platform on Windows Subsystem for Linux.**
 
-### Los geht’s
-##### Installation von WSL2
-Der erste Schritt um auch unter Windows 10 oder Windows 11 Docker native auf einem Linux Kernel laufen zu lassen ist die Aktivierung des neuen Windows Subsystem for Linux (WSL2):
+### Let's go
+##### Installing WSL2
+The first step to running Docker native on a Linux kernel even on Windows 10 or Windows 11 is to enable the new Windows Subsystem for Linux (WSL2):
 
-##### Aktuelle Builds
-Wenn Sie Windows 10, Version 2004 und höher (Build 19041 und höher), oder Windows 11 ausführen können Sie einfach Ihre Power Shell als Administrator öffnen und folgenden Befehl ausführen:
+##### Current Builds
+If you are running Windows 10, version 2004 and above (build 19041 and above), or Windows 11 you can simply open your power shell as administrator and run the following command:
 ```
 $ wsl --install
 ```
-Dieser Befehl aktiviert die erforderlichen optionalen Windows Komponenten, lädt den aktuellen Linux-Kernel herunter, legt WSL 2 als Standard fest und installiert eine Linux-Distribution für Sie (standardmäßig Ubuntu). Um die installierte Distribution zu ändern, geben Sie Folgendes ein:
+This command enables the required optional Windows components, downloads the latest Linux kernel, sets WSL 2 as the default, and installs a Linux distribution for you (Ubuntu by default). To change the installed distribution, type the following:
 ```
 $ wsl --install -d <Distribution Name>
 ```
-Ersetzen Sie < Distribution Name >  durch den Namen der Distribution, die Sie installieren möchten.
-##### Ältere Builds
-Windows 10 biete ab dem Fall Creators Update (Version 1709) das Windows Subsystem for Linux (WSL) in der Version 1 an. WSL2 ist nach erweiterter Abwärtskompatibilität ab Build 18363.1049 verfügbar. Für die folgenden Schritte beziehen wir uns immer auf die 64-Bit Variante der PowerShell.
+Replace < Distribution Name >  with the name of the distribution you want to install.
+##### Older builds
+Windows 10 offered Windows Subsystem for Linux (WSL) version 1 starting with the Fall Creators Update (version 1709). WSL2 is available after extended backward compatibility starting with build 18363.1049. For the following steps, we always refer to the 64-bit variant of PowerShell.
 
-Als erstes muss WSL als Windows Feature aktiviert werden. Rufen Sie dazu die PowerShell als Administrator auf und aktivieren sie das Feature:
+The first thing to do is to enable WSL as a Windows feature. To do this, call PowerShell as administrator and activate the feature:
 ```
 $ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
-Vor der Installation von WSL 2 müssen Sie das optionale Feature Plattform des virtuellen Computers aktivieren.
+Before installing WSL 2, you must enable the optional Virtual Computer Platform feature.
 
-Öffnen Sie die PowerShell als Administrator und führen Sie Folgendes aus:
+Open PowerShell as an administrator and run the following:
 ```
 $ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 ```
-Starten Sie anschließend den Rechner neu.
+Then restart the computer.
 
-Installieren Sie nun das WSL-Update-Paket. Hierzu laden Sie das aktuelle Update-Paket unter https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi herunter. Führen Sie das im vorherigen Schritt heruntergeladene Updatepaket aus.
+Now install the WSL update package. To do this, download the latest update package from  https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi. Run the update package downloaded in the previous step.
 
-Starten Sie nun eine PowerShell (ohne Administratorrechte) und führen Sie Folgendes aus um WSL2 als Standardversion zu setzen
+Now start a PowerShell (without administrator rights) and execute the following to set WSL2 as default version.
 ```
 $ wsl --set-default-version 2
 ```
-Öffnen Sie den Microsoft Store, und wählen Sie Ihre bevorzugte Linux-Distribution aus. Unser Skript und das hier beschriebene Vorgehen unterstützt:
+Open the Microsoft Store and select your preferred Linux distribution. Our script and the procedure described here are supported:
 - Debian
 - Ubuntu
 - OpenSUSE
 
-Wenn Sie eine neu installierte Linux-Distribution zum ersten Mal starten, wird ein Konsolenfenster geöffnet, und Sie werden aufgefordert, zu warten, bis die Dateien dekomprimiert und auf dem Computer gespeichert wurden. Alle zukünftigen Starts sollten weniger als eine Sekunde in Anspruch nehmen.
+When you start a newly installed Linux distribution for the first time, a console window will open and you will be prompted to wait until the files have been decompressed and saved to the computer. All future launches should take less than a second.
 
 ### Infologistix Docker Installer für WSL2
-![Aufbau der infologistix Docker Lösung](img/docker-wsl-aufbau.png)
-Abbildung: Aufbau der infologistix Docker Lösung
+![Structure of the infologistix Docker solution](img/docker-wsl-aufbau.png)
+*Figure 1: Structure of the infologistix Docker solution*
 
 ##### Installation
-Docker kann mit folgendem Bash-Befehl innerhalb der WSL2 installiert werden:
+Docker can be installed within WSL2 using the following bash command:
 ```
 $ bash <(curl -fsSL https://raw.githubusercontent.com/infologistix/docker-wsl2/main/install.sh)
 ```
-##### Nutzung von Docker unter Windows
-Unter Windows ist die Pfadvariable hinzuzufügen. Der Installer installier einen Docker Client nach **C:\Docker\docker.exe**. Dieser Pfad muss einmalig angegeben werden, dann ist Docker auch in Windows vorhanden.
+##### Using Docker on Windows
+On Windows, add the path variable. The installer will install a Docker client to **C:\Docker\docker.exe**. This path must be specified once, then Docker is also present in Windows. 
 
-Die Benutzung erfolgt dann mit einem docker context:
+The usage is then done with a docker context:
 ```
 $ docker context create wsldocker --docker host=tcp://localhost:2375
 $ docker context use wsldocker
 ```
-##### Deinstallation
-Docker kann mit folgendem Bash-Befehl innerhalb der WSL2 deinstalliert werden:
+##### Uninstall
+Docker can be uninstalled with the following bash command inside WSL2:
 ```
 $ bash <(curl -fsSL https://raw.githubusercontent.com/infologistix/docker-wsl2/main/uninstall.sh)
 ```
-### Fazit
-Zusammenfassend haben wir haben einen Installer für die Ausführung von Docker in einer Windows Subsystem für Linux-Umgebung kombiniert und erstellt. Der daraus resultierende Installer, zusätzliche Konfiguration und Dokumentation finden Sie in unserem GitHub Repository:
+### Conclusion
+In summary, we have combined and created an installer for running Docker in a Windows Subsystem for Linux environment. The resulting installer, additional configuration, and documentation can be found in our GitHub repository: 
 
 [infologistix/docker-wsl2: Simple and fast Docker Integration in WSL2 without using Docker Desktop. Suitable for large enterprises](https://github.com/infologistix/docker-wsl2)

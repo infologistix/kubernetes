@@ -5,37 +5,37 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Our projects',
+    title: 'Projects',
     image: "img/Cloud_Native_neu-1320x1320.png",
     description: (
       <>
-        List of all our projcts actual and finished
+        Explore our project portfolio: Witness our successful implementations across industries, showcasing innovation and business growth.
       </>
     ),
     to: "/docs/projects",
-    message: "More",
+    message: "Explore",
   },
   {
-    title: 'Our services',
+    title: 'Service',
     image: "img/Cloud_Native_neu-1320x1320.png",
     description: (
       <>
-        need help? See our services
+        Experience our comprehensive services: Empowering businesses with cutting-edge solutions in Kubernetes, infrastructure, and AI-powered technologies.
       </>
     ),
     to: "/docs/service",
-    message: "More",
+    message: "Explore",
   },
   {
-    title: 'Our team',
+    title: 'Team',
     image: "img/AI_neu-1320x1320.png",
     description: (
       <>
-        Overview of the team
+        Meet our expert team: Discover a dedicated group of professionals driving technological excellence and delivering tailored solutions for clients.
       </>
     ),
     to: "/docs/team",
-    message: "More",
+    message: "Explore",
   },
 ];
 

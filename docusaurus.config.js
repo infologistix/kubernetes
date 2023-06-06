@@ -8,6 +8,7 @@
 const config = {
   title: 'KubeSpectra',
   tagline: 'In a few days here will shine a fabulous homepage :)',
+  // Welcome to KubeSpectra, where innovation meets infrastructure excellence!
   favicon: 'https://infologistix.de/wp-content/uploads/cropped-infologistix-Leistungsangebot-Data-Delivery-32x32.png',
 
   // Set the production url of your site here

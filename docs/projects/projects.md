@@ -3,13 +3,13 @@ sidebar_position: 1
 ---
 # Projects
 
-select one of the projects to get more information.
+With a proven track record and a forward-looking mindset, KubeSpectra has successfully delivered impactful projects across various industries. Our past projects reflect our expertise in platform engineering, private and public cloud solutions, software engineering, and AI. From architecting scalable infrastructure to developing intelligent applications, we have consistently exceeded expectations. In our current projects, we continue to innovate, leveraging the latest technologies to drive digital transformation and deliver tangible business outcomes. Partner with KubeSpectra to unlock the potential of your projects and propel your organization towards success.
 
 ## Education
 <details>
   <summary>First lecture on cloud computing in Germany</summary>
   <div>
-    <div>We created the first lecture.</div>
+    <div>We created the first lecture on Cloud Native Comuting in Germany. <a href="../blog/lecture">Read more</a></div>
   </div>
 </details>
 
@@ -40,14 +40,26 @@ select one of the projects to get more information.
 <details>
   <summary>Docker without desktop</summary>
   <div>
-    <div>We developed a test data generator. See more on our blog.</div>
+    <div>Docker Desktop becomes commercial, we show you a free alternative - Docker in Windows Subsystem for Linux (WSL).
+    Docker's free products are used by millions of developers to build, publish and run applications - in data centers, the public cloud or with Docker Desktop on the local PC. 
+    55% of developers use Docker every day at work. <a href="../blog/docker-in-wsl">Read more</a></div>
   </div>
 </details>
 
 <details>
-  <summary>Forecast for energy market</summary>
+  <summary>D/A trading</summary>
   <div>
-    <div>We developed a test data generator. See more on our blog.</div>
+    <div>Data-driven trading recommendations in D/A power trading. This is based on market data that is analyzed using state-of-the-art AI algorithms. From this, forecasts are calculated and made available via online dashboard or messaging system. With these recommendations your trading performance increases and at the same time it reduces the time for market observations.</div>
+  </div>
+</details>
+
+<details>
+  <summary>Peak load forecasting in the energy market</summary>
+  <div>
+    <div><p>Load peaks occur in many networked systems, such as data centers, logistics or power grids. In the case of internal power grids, load peaks result in disproportionately high costs, since either excess capacities have to be maintained or services have to be purchased externally.
+    Using AI-based methods, energy load peaks (which cost a lot of money) are automatically predicted and intercepted via adapted production control. This is done by machine learning, which is used to create transparency about the max. daily load withdrawals. The fine control (management) of the decisive energy consumers can thus be optimized.</p>
+    <p><b>Conclusion:</b> Especially medium-sized industrial companies can significantly reduce their energy costs with this lightweight AI solution - quickly, easily and safely.</p>
+    </div>
   </div>
 </details>
 
@@ -68,7 +80,7 @@ select one of the projects to get more information.
 <details>
   <summary>Video Analysis</summary>
   <div>
-    <div>We developed a test data generator. See more on our blog.</div>
+    <div>We maed AI baed video analysis.</div>
   </div>
 </details>
 
@@ -82,9 +94,9 @@ select one of the projects to get more information.
 
 ## Sports
 <details>
-  <summary>Sports analystics with FC Bayern München Basketball</summary>
+  <summary>Sports analytics with FC Bayern München Basketball</summary>
   <div>
-    <div>Sports ans more.</div>
+    <div>Sports and more.</div>
   </div>
 </details>
 

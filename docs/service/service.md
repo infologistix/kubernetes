@@ -6,11 +6,10 @@ import Link from '@docusaurus/Link';
 
 # Service
 
-We provide three kinds of services.
+Our comprehensive services offer a seamless integration of cutting-edge technologies to fuel your digital transformation. From architecting robust platforms to leveraging AI for intelligent decision-making, we empower businesses to unlock new opportunities, optimize operations, and drive innovation. Experience the synergy of platform engineering, cloud solutions, software engineering, and AI with KubeSpectra, and accelerate your journey towards success in the digital era.
 
 
-
-<Box color="#4D5E7510">
+<Box color="#6CA8B730">
 <h3>Platform Engineering</h3>
 
 Platform engineering is the behind-the-scenes work that makes all the technology and digital services we use possible. It involves creating and maintaining the systems, tools, and infrastructure that support various software applications and websites. 
@@ -21,12 +20,12 @@ Imagine a platform as a big, interconnected structure that allows different soft
 
 They ensure that the servers, networks, and databases that power our digital world are reliable, secure, and efficient. They also develop software tools and processes that enable different applications to communicate and share information with each other
 </details>
-<div style={{margin:"auto", width: "20%"}}>
-    <Link className="button button--secondary button--lg" to="/docs/service/platform">More</Link>
+<div style={{margin:"auto", width: "30%"}}>
+    <Link style={{backgroundColor: "white"}} className="button button--secondary button--lg" to="/docs/service/platform">Service details</Link>
 </div>
 </Box>
 
-<Box color="#4D5E7510">
+<Box color="#6CA8B730">
 <h3>Private + Public Cloud</h3> 
 
 Private and public clouds are two different ways of using and accessing computer resources and services over the internet.
@@ -39,12 +38,12 @@ On the other hand, a public cloud is like a shared space where many people and o
 
 In summary, a private cloud is a dedicated and controlled digital space, while a public cloud is a shared and accessible space where resources are provided by a third-party company. Both private and public clouds have their own advantages and are used by individuals and organizations depending on their specific needs and preferences.
 </details>
-<div style={{margin:"auto", width: "20%"}}>
-    <Link className="button button--secondary button--lg" to="/docs/service/cloud">More</Link>
+<div style={{margin:"auto", width: "30%"}}>
+    <Link style={{backgroundColor: "white"}} className="button button--secondary button--lg" to="/docs/service/cloud">Service details</Link>
 </div>
 </Box>
 
-<Box color="#4D5E7510">
+<Box color="#6CA8B730">
 <h3>Software Engineering + AI</h3> 
 
 In recent years, AI has become an important aspect of software engineering. AI technologies are being integrated into various software applications to enhance their capabilities, such as voice assistants, recommendation systems, and autonomous vehicles. So, while software engineering focuses on creating software applications, AI adds an extra layer of intelligence and adaptability to these applications, making them more powerful and efficient.
@@ -56,7 +55,7 @@ Software engineering is the process of designing, creating, and maintaining comp
 Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that normally require human intelligence, such as understanding natural language, recognizing images, or making decisions. AI involves creating algorithms and models that enable computers to learn from data, adapt, and make predictions or decisions.
 </details>
 
-<div style={{margin:"auto", width: "20%"}}>
-    <Link className="button button--secondary button--lg" to="/docs/service/software">More</Link>
+<div style={{margin:"auto", width: "30%"}}>
+    <Link style={{backgroundColor: "white"}} className="button button--secondary button--lg" to="/docs/service/software">Service details</Link>
 </div>
 </Box>
