@@ -3,6 +3,7 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import JokersImageUrl from '@site/static/img/joker.jpg';
 import HaraldsImageUrl from '@site/static/img/harald.JPG';
+import MariesImageUrl from '@site/static/img/marie.jpg';
 import NicosImageUrl from '@site/static/img/nico.jpg';
 import PaulsImageUrl from '@site/static/img/paul.jpg';
 
@@ -43,7 +44,7 @@ const FeatureList = [
   },
   {
     title: 'Marie Padberg',
-    image: JokersImageUrl,
+    image: MariesImageUrl,
     description: (
       <>
         With a deep understanding of statistical analysis and machine learning algorithms, Marie uncovers patterns and trends that drive strategic decision-making. Her expertise in data visualization and storytelling 
@@ -81,7 +82,7 @@ function Feature({image, title, description}) {
   return (
     <div class='row'>
       <div className={styles.inlineImage}>
-        <img className={styles.featureImage} src={image} alt="infologistix logo"/>
+        <img className={styles.featureImage} src={image} alt="profile image"/>
       </div>
       <div className={styles.inlineText}>
         <h3>{title}</h3>

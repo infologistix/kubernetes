@@ -7,9 +7,9 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KubeSpectra',
-  tagline: 'In a few days here will shine a fabulous homepage :)',
+  tagline: 'Powering Success with Scalable Infrastructure Solutions for Optimal Performance.',
   // Welcome to KubeSpectra, where innovation meets infrastructure excellence!
-  favicon: 'https://infologistix.de/wp-content/uploads/cropped-infologistix-Leistungsangebot-Data-Delivery-32x32.png',
+  favicon: 'img/logo_without_background.png',
 
   // Set the production url of your site here
   url: 'https://infologistix.github.io',
@@ -64,7 +64,7 @@ const config = {
         title: 'Home',
         logo: {
           alt: 'KubeSpectra Logo',
-          src: 'img/Logo-Mit.png',
+          src: 'img/logo_without_background.png',
         },
         items: [
           {to: '/blog', label: 'Blog', position: 'left'},

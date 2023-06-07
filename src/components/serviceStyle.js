@@ -6,7 +6,7 @@ export default function Box({children, color}) {
       style={{
         backgroundColor: color,
         borderRadius: '8px',
-        border: '1px solid #6CA8B7', 
+        border: '1px solid #313196', 
         padding: '0.2rem',
         margin: '20px',
         width: '100%'

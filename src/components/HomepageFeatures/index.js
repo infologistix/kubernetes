@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Projects',
-    image: "img/Cloud_Native_neu-1320x1320.png",
+    image: "img/monolith_without_background.png",
     description: (
       <>
         Explore our project portfolio: Witness our successful implementations across industries, showcasing innovation and business growth.
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'Service',
-    image: "img/Cloud_Native_neu-1320x1320.png",
+    image: "img/ship_without_background.png",
     description: (
       <>
         Experience our comprehensive services: Empowering businesses with cutting-edge solutions in Kubernetes, infrastructure, and AI-powered technologies.
@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'Team',
-    image: "img/AI_neu-1320x1320.png",
+    image: "img/robot_without_background.png",
     description: (
       <>
         Meet our expert team: Discover a dedicated group of professionals driving technological excellence and delivering tailored solutions for clients.
@@ -43,7 +43,7 @@ function Feature({image, title, description,to,message}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <img className={styles.featureImage} src={image} alt="infologistix logo"/>
+        <img className={styles.featureImage} src={image} alt="KubeSpectra logo"/>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

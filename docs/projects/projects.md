@@ -66,7 +66,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details>
   <summary>OPServer</summary>
   <div>
-    <div>We developed a test data generator. See more on our blog.</div>
+    <div>We developed this on. See more on our blog.</div>
   </div>
 </details>
 
@@ -80,7 +80,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details>
   <summary>Video Analysis</summary>
   <div>
-    <div>We maed AI baed video analysis.</div>
+    <div>We made AI based video analysis.</div>
   </div>
 </details>
 
@@ -96,7 +96,8 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details>
   <summary>Sports analytics with FC Bayern München Basketball</summary>
   <div>
-    <div>Sports and more.</div>
+    <div>Unlike other sports, basketball has been using statistical analysis for decades to improve game, player and team coordination. We have further developed these approaches together with a top 
+    professional club and by using advanced analytics. <a href="https://infologistix.de/sports-analytics/">Read more</a></div>
   </div>
 </details>
 

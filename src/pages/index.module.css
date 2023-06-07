@@ -21,3 +21,8 @@
   align-items: center;
   justify-content: center;
 }
+
+.featureImage {
+  height: 350px;
+  width: 750px;
+}
