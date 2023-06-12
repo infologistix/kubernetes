@@ -10,13 +10,12 @@ import PaulsImageUrl from '@site/static/img/paul.jpg';
 
 const FeatureList = [
   {
-    title: 'Dr.-Ing. Harald Gerhards',
+    title: 'Harald Gerhards',
     image: HaraldsImageUrl,
     description: (
       <>
-        Dr.-Ing. Harald Philipp Gerhards is Head of Cloud Engineering at infologistix GmbH and a lecturer in the Artificial Intelligence course at the Technical University of Würzburg-Schweinfurt (THWS).  
-        He is a certified project and quality manager (TÜV) and has several years of experience as a senior consultant for both classic DWH and cloud and container platforms. As a system architect, he advises 
-        customers holistically with a focus on cloud-native architectures and extensions for real-time analysis of existing DWH and BI architectures.
+        Harald Philipp Gerhards is the leader of the kubespectra project and Head of Cloud Engineering at infologistix GmbH. He did his PhD about sensor data analysis and automation in the field of renewable enrgy at RWTH Aachen University and is lecturer in the Artificial Intelligence Master course at the Technical University of Würzburg-Schweinfurt (THWS).  
+        He has several years of experience as a senior system architect for DWH, private cloud and container platforms. He focuses on cloud-native architectures, security and extensions for real-time analysis of existing DWH and BI architectures.
       </>
     ),
   },
