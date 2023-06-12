@@ -18,10 +18,10 @@ jobs:
 
       - name: Install dependencies
         run: yarn install --frozen-lockfile
-        working-directory: ./package-lock.json
+        working-directory: ${{ github.workspace }}
       - name: Build website
         run: yarn build
-        working-directory: ./package-lock.json
+        working-directory: ${{ github.workspace }}
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
