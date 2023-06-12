@@ -35,8 +35,8 @@ const FeatureList = [
     image: NicosImageUrl,
     description: (
       <>
-        Nico is an IT Consultant with a passion for problem-solving and technology. With his extensive knowledge and experience, he provides valuable insights and guidance to clients. 
-        Nico's expertise in IT systems, coupled with his strong communication skills, makes him a trusted advisor who delivers effective solutions and drives business growth.
+        Nico is an data engineer with a passion for problem-solving and technology. With his extensive knowledge and experience, he provides valuable insights and guidance to clients. His personal focus as a mathematician is data science.
+        Nico's expertise in IT systems, coupled with his strong communication skills, makes him a trusted advisor who delivers effective solutions and drives business growth. As a certified SCRUM Master he serves the kubespectra project to reach its goals.
       </>
     ),
   },
