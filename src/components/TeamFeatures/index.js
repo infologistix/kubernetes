@@ -14,7 +14,7 @@ const FeatureList = [
     image: HaraldsImageUrl,
     description: (
       <>
-        Harald Philipp Gerhards is the leader of the kubespectra project and Head of Cloud Engineering at infologistix GmbH. He did his PhD about sensor data analysis and automation in the field of renewable enrgy at RWTH Aachen University and is lecturer in the Artificial Intelligence Master course at the Technical University of Würzburg-Schweinfurt (THWS).  
+        Harald Philipp Gerhards is the leader of the kubespectra project and Head of Cloud Engineering at infologistix GmbH. He did his PhD about sensor data analysis and automation in the field of renewable enrgy at RWTH Aachen University and is lecturer in the Artificial Intelligence Master program at the Technical University of Applied Sciences of Würzburg-Schweinfurt (THWS).  
         He has several years of experience as a senior system architect for DWH, private cloud and container platforms. He focuses on cloud-native architectures, security and extensions for real-time analysis of existing DWH and BI architectures.
       </>
     ),
@@ -24,10 +24,9 @@ const FeatureList = [
     image: JokersImageUrl,
     description: (
       <>
-        Suphanat Aviphan studied Business Informatics at the Ostbayerische Technische Hochschule Regensburg from 2013 to 2017 and completed his Bachelor's degree here. He then completed his master's degree at the University of Regensburg from 2017 to 2020 (title of master's thesis: "Analysis of Customer Reviews: Detecting user context with neural networks").
-        Since March 2022, he has been conducting Kubernetes tutorials for students of the master's program "Artificial Intelligence" in the Cloud Native Computing module at the Würzburg-Schweinfurt University of Applied Sciences (THWS).
-        Inspired by his semester abroad (Japan) and his work as a student trainee, Mr. Aviphan specialized in the fields of Data Science and Cloud Native Computing. At infologistix, he is a DevOps engineer in the field of Cloud Native Computing (CNC) with a focus on Cloud Native Infrastructure and conducts training for Kubernetes as a trainer.
-        As an administrator, he manages the internal development environment (Azure) and the Kubernetes demo platform of infologistix GmbH.
+        Suphanat Aviphan studied Business Informatics at the OTH and the University of Regensburg. The title of master's thesis was "Analysis of Customer Reviews: Detecting user context with neural networks".
+        Inspired by his semester abroad (Japan) and his work as a student trainee, he specialized in the fields of Data Science and Cloud Native Computing. He is a certified Kubernetes Developer and DevOps engineer with a focus on platform management and conducts training for Kubernetes.
+        As an administrator, he manages the internal development environment (Azure) and the Kubernetes demo platform of kubespectra
       </>
     ),
   },
