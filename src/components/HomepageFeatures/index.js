@@ -42,6 +42,7 @@ const FeatureList = [
 function Feature({image, title, description,to,message}) {
   return (
     <div className={clsx('col col--4')}>
+      <div className={styles.border}>
       <div className="text--center">
         <img className={styles.featureImage} src={image} alt="KubeSpectra logo"/>
       </div>
@@ -57,10 +58,11 @@ function Feature({image, title, description,to,message}) {
         </div>
       </div>
     </div>
+    </div>
   );
 }
 
-export default function HomepageFeatures() {
+export function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
@@ -71,5 +73,33 @@ export default function HomepageFeatures() {
         </div>
       </div>
     </section>
+  );
+}
+
+export function KubeSpectra() {
+  return (
+  <div className="container">
+    <h1>KubeSpectra</h1>
+    <p>stands for ...</p>
+  </div>
+  );
+}
+
+// Liste für 4 Konzepte anlegen wie auf infologistix Seite
+export function Concepts() {
+  return (
+  <div className="container">
+    <h1>Concepts</h1>
+    <p>Our guiding is ...</p>
+  </div>
+  );
+}
+
+export function Solutions() {
+  return (
+  <div className="container">
+    <h1>Solutions</h1>
+    <p>We build solutions ...</p>
+  </div>
   );
 }
