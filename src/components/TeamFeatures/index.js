@@ -14,7 +14,7 @@ const FeatureList = [
     image: HaraldsImageUrl,
     description: (
       <>
-        Harald Philipp Gerhards is the leader of the kubespectra project and Head of Cloud Engineering at infologistix GmbH. He did his PhD about sensor data analysis and automation in the field of renewable enrgy at RWTH Aachen University and is lecturer in the Artificial Intelligence Master program at the Technical University of Applied Sciences of Würzburg-Schweinfurt (THWS).  
+        Harald Philipp Gerhards is the leader of the KubeSpectra project and Head of Cloud Engineering at infologistix GmbH. He did his PhD about sensor data analysis and automation in the field of renewable enrgy at RWTH Aachen University and is lecturer in the Artificial Intelligence Master program at the Technical University of Applied Sciences of Würzburg-Schweinfurt (THWS).  
         He has several years of experience as a senior system architect for DWH, private cloud and container platforms. He focuses on cloud-native architectures, security and extensions for real-time analysis of existing DWH and BI architectures.
       </>
     ),
@@ -35,8 +35,8 @@ const FeatureList = [
     image: NicosImageUrl,
     description: (
       <>
-        Nico is an data engineer with a passion for problem-solving and technology. With his extensive knowledge and experience, he provides valuable insights and guidance to clients. His personal focus as a mathematician is data science.
-        Nico's expertise in IT systems, coupled with his strong communication skills, makes him a trusted advisor who delivers effective solutions and drives business growth. As a certified SCRUM Master he serves the kubespectra project to reach its goals.
+        Nico is a data engineer with a passion for problem-solving and technology. With his extensive knowledge and experience, he provides valuable insights and guidance to clients. His personal focus as a mathematician is data science.
+        Nico's expertise in IT systems, coupled with his strong communication skills, makes him a trusted advisor who delivers effective solutions and drives business growth. As a certified SCRUM Master he serves the KubeSpectra project to reach its goals.
       </>
     ),
   },
@@ -45,9 +45,9 @@ const FeatureList = [
     image: MariesImageUrl,
     description: (
       <>
-        With a deep understanding of statistical analysis and machine learning algorithms, Marie uncovers patterns and trends that drive strategic decision-making. Her expertise in data visualization and storytelling 
-        makes her findings easily accessible and actionable for stakeholders. The passion for innovation and continuous learning keeps her at the forefront of cutting-edge techniques, making her an invaluable 
-        asset in the world of data science.
+        Marie, a Computer Science graduate, is a versatile a DevOps and AI Engineer. With her focus on Machine Learning, especially Natural Language Processing and Cloud Native, she brings a unique blend of skills and expertise 
+        to her work. Her certifications in AWS and Rancher validate her proficiency in cloud computing and container management. Marie's dedication to staying at the forefront of technology ensures she remains a 
+        valuable asset in delivering innovative and efficient solutions in the field of data science and infrastructure management.
       </>
     ),
   },
@@ -56,10 +56,10 @@ const FeatureList = [
     image: JokersImageUrl,
     description: (
       <>
-        Andreas Platau studied Business Informatics at the University of Karlsruhe, the Karlsruhe Institute of Technology (KIT), from 2013-2015 and received his Master's degree.
-        Before that, he completed his bachelor's degree at the Albstadt-Sigmaringen University of Applied Sciences.
-        Already during his studies he focused on the development of cloud-based architectures and deepened his know-how through projects in the field of eCommerce. After joining infologistix, he expanded his expertise 
-        by focusing on Kubernetes / Kafka and IBM DataStage. Since June 2020, he has been working continuously in DataStage and Data Warehouse projects for our top customers from the finance and insurance industry.
+        Andreas Platau is a highly qualified professional who graduated in Business Informatics at the University of Karlsruhe, also known as the Karlsruhe Institute of Technology (KIT). 
+        During his studies, Andreas focused on cloud-based architecture development and gained practical experience through eCommerce projects. Joining infologistix expanded his expertise, where he specialized 
+        in Kubernetes, Kafka, and IBM DataStage. Since June 2020, he has been actively involved in executing DataStage and Data Warehouse projects for esteemed clients in the finance and insurance industry. 
+        Andreas's skills and experience make him a valuable asset in delivering successful projects.
       </>
     ),
   },

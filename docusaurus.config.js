@@ -7,8 +7,8 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KubeSpectra',
-  tagline: 'Powering Success with Scalable Infrastructure Solutions for Optimal Performance.',
-  // Welcome to KubeSpectra, where innovation meets infrastructure excellence!
+  tagline: 'Unleashing the Power of Kubernetes to Illuminate Your Digital Infrastructure',
+  // Powering Success with Scalable Infrastructure Solutions for Optimal Performance.
   favicon: 'img/logo_without_background.png',
 
   // Set the production url of your site here

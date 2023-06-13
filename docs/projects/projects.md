@@ -71,6 +71,13 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 </details>
 
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196"}}>
+  <summary>Skill database</summary>
+  <div>
+    <div>A web application where users can enter their technical skills. This information is sent from the frontend to the backend and from there to the graph database "Neo4j". Afterwards, the aggregated data/user information can be viewed in the Shopify format. The goal of this application is to be able to assign suitable employees to projects/project tenders as quickly as possible and to have contact persons for individual technologies.</div>
+  </div>
+</details>
+
+<details style={{backgroundColor:"#31319630", border: "1px solid #313196"}}>
   <summary>Test data generation</summary>
   <div>
     <div>Before new applications go into production, data-driven tests are essential to ensure the quality of software and applications. For these tesings we have built a test data generator. <a href="../blog/testdata">Read more</a></div>
@@ -80,7 +87,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196"}}>
   <summary>Video Analysis</summary>
   <div>
-    <div>We made AI based video analysis.</div>
+    <div>Development of an AI system that uses a neural network (ssd-mobilenet-v2) to analyze the video feed of a camera and extract characteristics such as number of people, direction of movement, clothing, etc. These characteristics are further processed by a subsequent cloud system. These characteristics are further processed, aggregated and visually displayed by a subsequent cloud system.</div>
   </div>
 </details>
 
@@ -105,7 +112,8 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196"}}>
   <summary>AI assisted planning</summary>
   <div>
-    <div>We developed an AI assistant for a software.</div>
+    <div>Development of an (AI-based) "intelligent assistance function" to complement existing planning software for industrial applications.
+      With the currently used planning software, the user has to set a fixed set of parameters and can then, through manual, iterative changes, achieve a result. This "trial & error" approach is to be supplemented/replaced by an automatic optimization tool.</div>
   </div>
 </details>
 

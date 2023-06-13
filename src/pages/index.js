@@ -3,7 +3,7 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import {HomepageFeatures, KubeSpectra, Concepts, Solutions} from '@site/src/components/HomepageFeatures';
+import {HomepageFeatures, KubeSpectra, ConceptFeatures, Solutions} from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
 
@@ -22,15 +22,7 @@ function HomepageHeader() {
     </header>
   );
 }
-/* 
-<div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-*/
+
 
 export default function Home() {
   //const {siteConfig} = useDocusaurusContext();
@@ -42,7 +34,7 @@ export default function Home() {
       <main>
         <HomepageFeatures />
         <KubeSpectra />
-        <Concepts />
+        <ConceptFeatures />
         <Solutions />
       </main>
     </Layout>

@@ -18,3 +18,22 @@
 .buttons {
   padding-bottom: 10px;
 }
+
+.center {
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.text_kubespectra {
+  margin: auto;
+  font-size: x-large;
+  text-align: center;
+  width: 70%;
+}
+
+.text_solutions {
+  margin: auto;
+  text-align: left;
+  width: 80%;
+  padding-bottom: 1.5rem;
+}
