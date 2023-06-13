@@ -12,14 +12,15 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+      
       - name: Set up node
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: yarn
-          cache-dependency-path: kubernetes/package-lock.json
+      
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: yarn install
+      
       - name: Build website
         run: yarn build
 
@@ -27,6 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: kubernetes/build
-          user_name: github-actions[bot]
-          user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          publish_dir: ./build
