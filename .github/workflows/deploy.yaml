@@ -6,7 +6,7 @@ on:
       - master
     paths:
       - '.github/workflows/deploy.yaml'
-      - 'kubernetes/**'
+      - 'kubernetes/kubernetes'
 
 jobs:
   deploy:
