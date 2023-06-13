@@ -8,7 +8,6 @@
 const config = {
   title: 'KubeSpectra',
   tagline: 'Unleashing the Power of Kubernetes to Illuminate Your Digital Infrastructure',
-  // Powering Success with Scalable Infrastructure Solutions for Optimal Performance.
   favicon: 'img/logo_without_background.png',
 
   // Set the production url of your site here
@@ -18,7 +17,6 @@ const config = {
   baseUrl: '/kubernetes/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'infologistix', // Usually your GitHub org/user name.
   projectName: 'kubernetes', // Usually your repo name.
   deploymentBranch: 'gh-pages',
@@ -58,6 +56,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        disableSwitch: true,
+      },
       // Replace with your project's social card
       //image: 'img/docusaurus-social-card.jpg',
       navbar: {
