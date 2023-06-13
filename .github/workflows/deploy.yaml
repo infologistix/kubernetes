@@ -15,7 +15,8 @@ jobs:
         with:
           node-version: 18
           cache: yarn
-
+      - name: Print Working Directory
+        run: echo "Working Directory: $PWD"
       - name: Install dependencies
         run: yarn install --frozen-lockfile
         working-directory: ../
