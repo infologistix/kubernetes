@@ -8,7 +8,7 @@
 const config = {
   title: 'KubeSpectra',
   tagline: 'Unleashing the Power of Kubernetes <br /> to Illuminate Your Digital Infrastructure',
-  favicon: 'img/logo_without_background.png',
+  favicon: 'img/logo_new.png',
 
   // Set the production url of your site here
   url: 'https://infologistix.github.io',
@@ -73,7 +73,7 @@ const config = {
         ],
       },
       footer: {
-        copyright: `<a href="https://infologistix.de/"><img src="img/infologistix-logo.png" alt=infologistix logo" width="82" height="45.8" /></a> Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,
       },
     }),
 };
