@@ -17,7 +17,6 @@
   --ifm-navbar-link-color: white;
   --ifm-footer-background-color: #214186;  /*#214186; linear-gradient(45deg, #214186, black) */ 
   --ifm-footer-color: white;
-  --ifm-footer-link-color: white;
   --ifm-footer-link-hover-color: white;
   --ifm-footer-padding-vertical: 3rem;
   /*--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);*/
@@ -31,6 +30,10 @@ aside {
   border-right: 1px solid white;
 }
 
-.sidebar {
+.menu__link, .table-of-contents__link, .pagination-nav__sublabel {
   color: white;
 } 
+
+.menu__link:hover {
+  color: #6CA8B7;
+}

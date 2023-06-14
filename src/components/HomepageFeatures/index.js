@@ -48,7 +48,7 @@ function Feature({image, title, description,to,message}) {
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
-        <p>{description}</p>
+        <p className={styles.description_height}>{description}</p>
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
@@ -113,7 +113,7 @@ const ConceptList = [
       <ul>
         <li>Utilization of best practices</li>
         <li>Involvement of all stakeholders</li>
-        <li>Development and documentation of a high-level design<br /><br /><br /></li>
+        <li>Development and documentation of a high-level design</li>
       </ul>
       )
   },
@@ -145,7 +145,7 @@ const ConceptList = [
       <ul>
         <li>review of systems and processes (Health Checks)</li>
         <li>Minimization of downtime through proactive maintenance</li>
-        <li>Active knowledge transfer<br /><br /><br /><br /></li>
+        <li>Active knowledge transfer</li>
       </ul>
       )
   },

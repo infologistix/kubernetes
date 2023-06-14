@@ -3,6 +3,7 @@
 
 //const lightCodeTheme = require('prism-react-renderer/themes/github');
 //const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+//const { withBaseUrl } = require('@docusaurus/core');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -54,17 +55,13 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /* @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
         disableSwitch: true,
       },
       navbar: {
         title: 'Home',
-        //logo: {
-        //  alt: 'KubeSpectra Logo',
-        //  src: 'img/logo_without_background.png',
-        //},
         items: [
           {to: '/docs/projects', label: 'Projects', position: 'left'},
           {to: '/docs/service', label: 'Service', position: 'left'},
@@ -73,6 +70,26 @@ const config = {
         ],
       },
       footer: {
+        logo: {
+          alt: 'infologistix logo',
+          src: 'img/infologistix-logo.png',
+          href: 'https://infologistix.de/',
+          width: 82,
+          height: 42.8,
+          style: {float: "left"},
+        },
+        /*links: [
+          {
+            html: `
+            <a href="https://infologistix.de/">
+              <img src="img/infologistix-logo.png" alt="infologistix logo" width="82" height="42.8" />
+            </a>
+            <a href="docs/team">
+              <img src="img/logo_new.png" alt="KubeSpectra logo" width="42.8" height="42.8" />
+            </a>
+          `,
+          }
+        ], */
         copyright: `Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,
       },
     }),
