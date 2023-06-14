@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 3rem 0;
+  padding: 5rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -23,7 +23,20 @@
 }
 
 .featureImage {
-  height: 350px;
-  width: 750px;
-  padding-left: 1rem;
+  height: 200px;
+  width: 200px;
+  padding: 1rem;
+}
+
+.gradient {
+  background-image: url("/img/background_header.png");/*linear-gradient(235deg, #000000,#214186);  45deg,  */
+  background-size: cover;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.footer {
+  background: linear-gradient(235deg, #000000,#214186); 
 }

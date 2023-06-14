@@ -10,15 +10,17 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title" style={{color: "white"}}>{siteConfig.title}</h1>
-        <p className="hero__subtitle" style={{color: "white"}}>{siteConfig.tagline}</p>
-        <Link className="button button--secondary button--lg" to="/docs/team">Get in Touch</Link>
-      </div>
-      <div>
-        <img className={styles.featureImage} src="img/CNC_Grafik.png" alt="KubeSpectra logo"/>
-      </div>
+    <header className={clsx('hero hero--primary', styles.heroBanner, styles.gradient)}>
+      <div style={{marginLeft: "100px"}}>
+        <div className={styles.inline}>
+          <img className={styles.featureImage} src="img/logo_new.png" alt="KubeSpectra logo"/>
+        </div>
+        <div className={styles.inline}>
+          <h1 className="hero__title" style={{color: "white", fontFamily: "Sensation"}}>{siteConfig.title}</h1>
+          <p className="hero__subtitle" style={{color: "white",fontFamily: "Sensation", textAlign: "left"}}>Unleashing the Power of Kubernetes <br /> to Illuminate Your Digital Infrastructure</p>
+          <Link className="button button--secondary button--lg" to="/docs/team">Get in Touch</Link>
+        </div>
+      </div>    
     </header>
   );
 }

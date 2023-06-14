@@ -7,7 +7,7 @@
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KubeSpectra',
-  tagline: 'Unleashing the Power of Kubernetes to Illuminate Your Digital Infrastructure',
+  tagline: 'Unleashing the Power of Kubernetes <br /> to Illuminate Your Digital Infrastructure',
   favicon: 'img/logo_without_background.png',
 
   // Set the production url of your site here
@@ -59,32 +59,21 @@ const config = {
       colorMode: {
         disableSwitch: true,
       },
-      // Replace with your project's social card
-      //image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Home',
-        logo: {
-          alt: 'KubeSpectra Logo',
-          src: 'img/logo_without_background.png',
-        },
+        //logo: {
+        //  alt: 'KubeSpectra Logo',
+        //  src: 'img/logo_without_background.png',
+        //},
         items: [
+          {to: '/docs/projects', label: 'Projects', position: 'left'},
+          {to: '/docs/service', label: 'Service', position: 'left'},
+          {to: '/docs/team', label: 'Team', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
         ],
       },
       footer: {
-        style: 'light',
-        /*links: [
-          {
-            title: 'Powered by',
-            items: [
-              {
-                label: 'infologistix GmbH',
-                href: 'https://infologistix.de/',
-              },
-            ],
-          },
-        ],*/
-        copyright: `Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,
+        copyright: `<a href="https://infologistix.de/"><img src="img/infologistix-logo.png" alt=infologistix logo" width="82" height="45.8" /></a> Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,
       },
     }),
 };
