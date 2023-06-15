@@ -13,7 +13,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner, styles.gradient)}>
       <div style={{marginLeft: "100px"}}>
         <div className={styles.inline}>
-          <img className={styles.featureImage} src="img/logo_new.png" alt="KubeSpectra logo"/>
+          <img className={styles.featureImage} src="img/logo_kubespectra.png" alt="KubeSpectra logo"/>
         </div>
         <div className={styles.inline}>
           <h1 className="hero__title" style={{color: "white", fontFamily: "Sensation"}}>{siteConfig.title}</h1>

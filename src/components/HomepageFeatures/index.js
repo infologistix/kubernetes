@@ -6,7 +6,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Projects',
-    image: "img/monolith_without_background.png",
+    image: "img/Project_ICON.png",
     description: (
       <>
         Explore our project portfolio: Witness our successful implementations across industries, showcasing innovation and business growth.
@@ -17,7 +17,7 @@ const FeatureList = [
   },
   {
     title: 'Service',
-    image: "img/ship_without_background.png",
+    image: "img/Service_ICON.png",
     description: (
       <>
         Experience our comprehensive services: Empowering businesses with cutting-edge solutions in Kubernetes, infrastructure, and AI-powered technologies.
@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'Team',
-    image: "img/robot_without_background.png",
+    image: "img/Team_ICON.png",
     description: (
       <>
         Meet our expert team: Discover a dedicated group of professionals driving technological excellence and delivering tailored solutions for clients.

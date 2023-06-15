@@ -6,14 +6,15 @@
 }
 
 .featureImage {
-  height: 150px;
-  width: 150px;
+  padding-top: 2rem;
+  height: 100px;
+  width: 90px;
 }
 
 .border {
   border: 1px solid;
   border-radius: 8px;
-  height: 25em;
+  height: 23em;
 }
 .description_height {
   height: 7rem;

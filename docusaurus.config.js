@@ -9,7 +9,7 @@
 const config = {
   title: 'KubeSpectra',
   tagline: 'Unleashing the Power of Kubernetes <br /> to Illuminate Your Digital Infrastructure',
-  favicon: 'img/logo_new.png',
+  favicon: 'img/logo_kubespectra.png',
 
   // Set the production url of your site here
   url: 'https://infologistix.github.io',
@@ -72,22 +72,19 @@ const config = {
       footer: {
         logo: {
           alt: 'infologistix logo',
-          src: 'img/infologistix-logo.png',
+          src: 'img/Infologistix2020_logo.png',
           href: 'https://infologistix.de/',
           width: 82,
           height: 42.8,
-          style: {float: "left"},
+          style: {float: "right"},
         },
         /*links: [
           {
             html: `
-            <a href="https://infologistix.de/">
-              <img src="img/infologistix-logo.png" alt="infologistix logo" width="82" height="42.8" />
-            </a>
-            <a href="docs/team">
-              <img src="img/logo_new.png" alt="KubeSpectra logo" width="42.8" height="42.8" />
-            </a>
+            <p>Copyright © ${new Date().getFullYear()}
+            <a href="https://infologistix.de/">infologistix GmbH</a>,<br /> Inc. Built with Docusaurus. </p>
           `,
+          style:{display: "inline-block"},
           }
         ], */
         copyright: `Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,

@@ -4,7 +4,7 @@
  */
 
 .heroBanner {
-  padding: 5rem 0;
+  padding: 6rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -29,7 +29,7 @@
 }
 
 .gradient {
-  background-image: url("/img/background_header.png");/*linear-gradient(235deg, #000000,#214186);  45deg,  */
+  background-image: url("/img/background.png");/*linear-gradient(235deg, #000000,#214186);  45deg,  */
   background-size: cover;
 }
 
