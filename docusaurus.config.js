@@ -66,7 +66,7 @@ const config = {
           {to: '/docs/projects', label: 'Projects', position: 'left'},
           {to: '/docs/service', label: 'Service', position: 'left'},
           {to: '/docs/team', label: 'Team', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'}, 
         ],
       },
       footer: {
