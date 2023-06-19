@@ -4,7 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import {HomepageFeatures, KubeSpectra, ConceptFeatures, Solutions} from '@site/src/components/HomepageFeatures';
-import LogoImageUrl from '@site/static/img/logo_new.png';
+import LogoImageUrl from '@site/static/img/kubespectra_logo.png';
 
 import styles from './index.module.css';
 

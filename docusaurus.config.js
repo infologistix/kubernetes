@@ -2,7 +2,7 @@
 const config = {
   title: 'KubeSpectra',
   tagline: 'Unleashing the Power of Kubernetes <br /> to Illuminate Your Digital Infrastructure',
-  favicon: 'img/logo_kubespectra.png',
+  favicon: 'img/kubespectra_logo.png',
 
   // Set the production url of your site here
   // url: 'https://infologistix.github.io',
@@ -66,7 +66,7 @@ const config = {
       footer: {
         logo: {
           alt: 'infologistix logo',
-          src: '/kubernetes/img/Infologistix2020_logo.png',
+          src: './img/Infologistix2020_logo.png',
           href: 'https://infologistix.de/',
           width: 82,
           height: 48,
