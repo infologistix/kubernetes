@@ -2,11 +2,14 @@ import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import styles from './styles.module.css';
+import ProjectsImageUrl from '@site/static/img/Project_ICON.png';
+import ServiceImageUrl from '@site/static/img/Service_ICON.png';
+import TeamImageUrl from '@site/static/img/Team_ICON.png';
 
 const FeatureList = [
   {
     title: 'Projects',
-    image: "img/Project_ICON.png",
+    image: ProjectsImageUrl,
     description: (
       <>
         Explore our project portfolio: Witness our successful implementations across industries, showcasing innovation and business growth.
@@ -17,7 +20,7 @@ const FeatureList = [
   },
   {
     title: 'Service',
-    image: "img/Service_ICON.png",
+    image: ServiceImageUrl,
     description: (
       <>
         Experience our comprehensive services: Empowering businesses with cutting-edge solutions in Kubernetes, infrastructure, and AI-powered technologies.
@@ -28,7 +31,7 @@ const FeatureList = [
   },
   {
     title: 'Team',
-    image: "img/Team_ICON.png",
+    image: TeamImageUrl,
     description: (
       <>
         Meet our expert team: Discover a dedicated group of professionals driving technological excellence and delivering tailored solutions for clients.

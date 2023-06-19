@@ -9,7 +9,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>First lecture on cloud computing in Germany</summary>
   <div>
-    <div>We created the first lecture on Cloud Native Comuting in Germany. <a href="../blog/lecture">Read more</a></div>
+    <div>We created the first lecture on Cloud Native Comuting in Germany. <a style={{color:"#6CA8B7"}} href="../blog/lecture">Read more</a></div>
   </div>
 </details>
 
@@ -42,7 +42,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
   <div>
     <div>Docker Desktop becomes commercial, we show you a free alternative - Docker in Windows Subsystem for Linux (WSL).
     Docker's free products are used by millions of developers to build, publish and run applications - in data centers, the public cloud or with Docker Desktop on the local PC. 
-    55% of developers use Docker every day at work. <a href="../blog/docker-in-wsl">Read more</a></div>
+    55% of developers use Docker every day at work. <a style={{color:"#6CA8B7"}} href="../blog/docker-in-wsl">Read more</a></div>
   </div>
 </details>
 
@@ -80,7 +80,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Test data generation</summary>
   <div>
-    <div>Before new applications go into production, data-driven tests are essential to ensure the quality of software and applications. For these tesings we have built a test data generator. <a href="../blog/testdata">Read more</a></div>
+    <div>Before new applications go into production, data-driven tests are essential to ensure the quality of software and applications. For these tesings we have built a test data generator. <a style={{color:"#6CA8B7"}} href="../blog/testdata">Read more</a></div>
   </div>
 </details>
 
@@ -95,7 +95,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
   <summary>Web Crawler</summary>
   <div>
     <div>WebCrawlers are a simple, effective and inexpensive way to search websites for specific information and make it available in compressed form. The programs are thus ideally suited to perform 
-    repetitive tasks. <a href="../blog/webcrawler">Read more</a></div>
+    repetitive tasks. <a style={{color:"#6CA8B7"}} href="../blog/webcrawler">Read more</a></div>
   </div>
 </details>
 
@@ -104,7 +104,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
   <summary>Sports analytics with FC Bayern München Basketball</summary>
   <div>
     <div>Unlike other sports, basketball has been using statistical analysis for decades to improve game, player and team coordination. We have further developed these approaches together with a top 
-    professional club and by using advanced analytics. <a href="https://infologistix.de/sports-analytics/">Read more</a></div>
+    professional club and by using advanced analytics. <a style={{color:"#6CA8B7"}} href="https://infologistix.de/sports-analytics/">Read more</a></div>
   </div>
 </details>
 

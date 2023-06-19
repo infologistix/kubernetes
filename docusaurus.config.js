@@ -1,10 +1,3 @@
-// @ts-check
-// Note: type annotations allow type checking and IDEs autocompletion
-
-//const lightCodeTheme = require('prism-react-renderer/themes/github');
-//const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-//const { withBaseUrl } = require('@docusaurus/core');
-
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'KubeSpectra',
@@ -57,7 +50,6 @@ const config = {
   ],
 
   themeConfig:
-    /* @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
         disableSwitch: true,
@@ -74,21 +66,12 @@ const config = {
       footer: {
         logo: {
           alt: 'infologistix logo',
-          src: 'img/Infologistix2020_logo.png',
+          src: '/kubernetes/img/Infologistix2020_logo.png',
           href: 'https://infologistix.de/',
           width: 82,
-          height: 42.8,
+          height: 48,
           style: {float: "right"},
         },
-        /*links: [
-          {
-            html: `
-            <p>Copyright © ${new Date().getFullYear()}
-            <a href="https://infologistix.de/">infologistix GmbH</a>,<br /> Inc. Built with Docusaurus. </p>
-          `,
-          style:{display: "inline-block"},
-          }
-        ], */
         copyright: `Copyright © ${new Date().getFullYear()} <a href='https://infologistix.de/'>infologistix GmbH</a>, Inc. Built with Docusaurus.`,
       },
     }),

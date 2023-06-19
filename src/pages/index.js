@@ -4,23 +4,24 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import {HomepageFeatures, KubeSpectra, ConceptFeatures, Solutions} from '@site/src/components/HomepageFeatures';
+import LogoImageUrl from '@site/static/img/logo_new.png';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner, styles.gradient)}>
+    <header style={{height:"100%", width:"100%"}} className={clsx('hero hero--primary', styles.heroBanner, styles.gradient)}>
       <div style={{marginLeft: "100px"}}>
         <div className={styles.inline}>
-          <img className={styles.featureImage} src="img/logo_kubespectra.png" alt="KubeSpectra logo"/>
+          <img className={styles.featureImage} src={LogoImageUrl} alt="KubeSpectra logo"/>
         </div>
         <div className={styles.inline}>
-          <h1 className="hero__title" style={{color: "white", fontFamily: "Sensation"}}>{siteConfig.title}</h1>
-          <p className="hero__subtitle" style={{color: "white",fontFamily: "Sensation", textAlign: "left"}}>Unleashing the Power of Kubernetes <br /> to Illuminate Your Digital Infrastructure</p>
+          <h1 className={styles.title}>{siteConfig.title}</h1>
+          <p className={styles.subtitle}>Unleashing the Power of Kubernetes <br /> to Illuminate Your Digital Infrastructure</p>
           <Link className="button button--secondary button--lg" to="/docs/team">Get in Touch</Link>
         </div>
-      </div>    
+      </div>             
     </header>
   );
 }

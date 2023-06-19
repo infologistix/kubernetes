@@ -2,9 +2,13 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+@font-face { 
+  font-family: Sansation; 
+  src: url('~/static/fonts/Sansation_Bold.ttf');
+}
 
 .heroBanner {
-  padding: 6rem 0;
+  padding: 12em 0;
   text-align: center;
   position: relative;
   overflow: hidden;
@@ -16,6 +20,20 @@
   }
 }
 
+.title {
+  color: white; 
+  font-family: Sansation; 
+  font-size: 5em;
+  text-align: left;
+}
+
+.subtitle {
+  color: white; 
+  font-family: Sansation; 
+  font-size: 3em;
+  text-align: left;
+}
+
 .buttons {
   display: flex;
   align-items: center;
@@ -23,13 +41,14 @@
 }
 
 .featureImage {
-  height: 200px;
-  width: 200px;
-  padding: 1rem;
+  height: 270px;
+  width: 220px;
+  padding: 10px;
+  padding-bottom: 55px;
 }
 
 .gradient {
-  background-image: url("/img/background.png");/*linear-gradient(235deg, #000000,#214186);  45deg,  */
+  background-image: radial-gradient(ellipse at right, transparent, #000000 100%), url("/img/background_cropped.png"); /*, url("/img/background_cropped.png")*/
   background-size: cover;
 }
 
