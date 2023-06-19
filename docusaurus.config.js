@@ -66,7 +66,7 @@ const config = {
       footer: {
         logo: {
           alt: 'infologistix logo',
-          src: './img/Infologistix2020_logo.png',
+          src: './img/infologistix_logo.png',
           href: 'https://infologistix.de/',
           width: 82,
           height: 48,
