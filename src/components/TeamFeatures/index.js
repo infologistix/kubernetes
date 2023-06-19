@@ -56,7 +56,7 @@ const FeatureList = [
     image: JokersImageUrl,
     description: (
       <>
-        Andreas Platau is a highly qualified professional who graduated in Business Informatics at the University of Karlsruhe, also known as the Karlsruhe Institute of Technology (KIT). 
+        Andreas Platau is a highly qualified professional who graduated in Business Informatics at the University of Karlsruhe. 
         During his studies, Andreas focused on cloud-based architecture development and gained practical experience through eCommerce projects. Joining infologistix expanded his expertise, where he specialized 
         in Kubernetes, Kafka, and IBM DataStage. Since June 2020, he has been actively involved in executing DataStage and Data Warehouse projects for esteemed clients in the finance and insurance industry. 
         Andreas's skills and experience make him a valuable asset in delivering successful projects.
@@ -68,9 +68,9 @@ const FeatureList = [
     image: PaulsImageUrl,
     description: (
       <>
-        Paul Schmidt is an IT Consultant for infologistix GmbH. He graduated as M.-Eng in information systems. His focus is on Industry 4.0 and Business Intelligence. His technical specialties include pattern 
+        Paul Schmidt is an Cloud Architect for infologistix GmbH. He graduated as M.-Eng in information systems. His focus is on Industry 4.0 and Business Intelligence. His technical specialties include pattern 
         recognition and machine learning, as well as cloud integrations for AI. At the time of writing he is designing network architectures for cloud systems and operates as DevOps engineer for rancher managed 
-        clusters and integrated services. During the year 2021 he held a lecture at "TDWI München digital" on "AI development for peak shaving".
+        clusters and integrated services. In the year 2021 he held a lecture on "AI development for peak shaving" at "TDWI München digital".
       </>
     ),
   },
