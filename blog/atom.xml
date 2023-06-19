@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://kubespectra.com/blog"/>
     <subtitle>KubeSpectra Blog</subtitle>
-    <icon>https://kubespectra.com/img/logo_kubespectra.png</icon>
+    <icon>https://kubespectra.com/img/kubespectra_logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Test data sampling]]></title>
         <id>https://kubespectra.com/blog/testdata</id>
