@@ -3,9 +3,11 @@ import clsx from 'clsx';
 import styles from './styles.module.css';
 import JokersImageUrl from '@site/static/img/joker.jpg';
 import HaraldsImageUrl from '@site/static/img/harald.JPG';
+import SuphanatsImageUrl from '@site/static/img/suphanat.jpg';
 import MariesImageUrl from '@site/static/img/marie.jpg';
 import NicosImageUrl from '@site/static/img/nico.jpg';
 import PaulsImageUrl from '@site/static/img/paul.jpg';
+import AndreasImageUrl from '@site/static/img/andreas.jpg';
 
 
 const FeatureList = [
@@ -21,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Suphanat Aviphan',
-    image: JokersImageUrl,
+    image: SuphanatsImageUrl,
     description: (
       <>
         Suphanat Aviphan studied Business Informatics at the OTH and the University of Regensburg. The title of master's thesis was "Analysis of Customer Reviews: Detecting user context with neural networks".
@@ -53,7 +55,7 @@ const FeatureList = [
   },
   {
     title: 'Andreas Platau',
-    image: JokersImageUrl,
+    image: AndreasImageUrl,
     description: (
       <>
         Andreas Platau is a highly qualified professional who graduated in Business Informatics at the University of Karlsruhe. 
