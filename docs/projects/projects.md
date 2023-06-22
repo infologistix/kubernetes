@@ -17,7 +17,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>OpenShift Platform</summary>
   <div>
-    <div>This is a platform.</div>
+    <div>Here will be soon more information about this project.</div>
   </div>
 </details>
 
@@ -25,14 +25,14 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Rancher Kubernetes Platform</summary>
   <div>
-    <div>Rancher.</div>
+    <div>Here will be soon more information about this project.</div>
   </div>
 </details>
 
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Cloud native AI plaform</summary>
   <div>
-    <div>We need more platforms.</div>
+    <div>Here will be soon more information about this project.</div>
   </div>
 </details>
 
@@ -66,7 +66,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>OPServer</summary>
   <div>
-    <div>We developed this on. See more on our blog.</div>
+    <div>Here will be soon more information about this project.</div>
   </div>
 </details>
 
@@ -121,6 +121,6 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Concept for traffic data, analysis, security and alerting</summary>
   <div>
-    <div>We created a concept.</div>
+    <div>We created a concept with requirements how Kubernetes can be used in combination with Clickhouse and appropriate evaluation tools to realize a performant platform for a large amount of data.</div>
   </div>
 </details>
