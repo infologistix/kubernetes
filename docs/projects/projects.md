@@ -17,7 +17,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>OpenShift Platform</summary>
   <div>
-    <div>Here will be soon more information about this project.</div>
+    <div>The goal was to install Cloud Pak for Data in Openshift OKD. For this we used Linux VMs from Azure.</div>
   </div>
 </details>
 
@@ -25,14 +25,25 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Rancher Kubernetes Platform</summary>
   <div>
-    <div>Here will be soon more information about this project.</div>
+    <div><b>Situation:</b><br />
+        Migration of internal applications to a new intranet platform, with a focus on open source software and a cloud native architecture.<br /><br />
+        <b>Project approach:</b><br />
+        The objective was to implement an overall architecture for platform, local development environment, network and all interfaces (users, databases, storage, etc.). The focus was on the introduction of:
+        <ul>
+          <li>Kubernetes and a cluster management system </li>
+          <li>communication encryption / access control via service mesh </li>
+          <li>introduction of new open source tools </li>
+          <li>DevOps concepts </li>
+          <li>Operators and other automation solutions </li>
+        </ul><br />
+        In addition, the developers were advised on migration with regard to cloudnative application architectures. For this purpose, general guidelines and architecture decisions for new technologies were created and blueprints for microservice architectures, claim check patterns and monitoring of performance and availability of services were developed.</div>
   </div>
 </details>
 
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
-  <summary>Cloud native AI plaform</summary>
+  <summary>Cloud native AI platform</summary>
   <div>
-    <div>Here will be soon more information about this project.</div>
+    <div>Based on KubeFlow and with a GPU connection, an AI platform was developed in a Kubernetes cluster. Models are to be developed in this platform which, according to the security concept, must not leave the Kubernetes platform (development environment and virtual computer in the platform).</div>
   </div>
 </details>
 
