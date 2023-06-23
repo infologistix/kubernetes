@@ -77,7 +77,7 @@ With a proven track record and a forward-looking mindset, KubeSpectra has succes
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>OPServer</summary>
   <div>
-    <div>Here will be soon more information about this project.</div>
+    <div>OPServer is a maintenance tool for platform operators and is used for continuous monitoring of PaaS systems. For this purpose, a series of small testers was implemented, which, for example, check whether external access from load balancers is possible. The tool then collects the test results including logging and monitoring statistics and shows in a UI if everything works.</div>
   </div>
 </details>
 
