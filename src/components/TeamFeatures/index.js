@@ -47,7 +47,7 @@ const FeatureList = [
     image: MariesImageUrl,
     description: (
       <>
-        Marie, a Computer Science graduate, is a versatile a DevOps and AI Engineer. With her focus on Machine Learning, especially Natural Language Processing and Cloud Native, she brings a unique blend of skills and expertise 
+        Marie, a Computer Science graduate, is a versatile DevOps and AI Engineer. With her focus on Machine Learning, especially Natural Language Processing and Cloud Native, she brings a unique blend of skills and expertise 
         to her work. Her certifications in AWS and Rancher validate her proficiency in cloud computing and container management. Marie's dedication to staying at the forefront of technology ensures she remains a 
         valuable asset in delivering innovative and efficient solutions in the field of data science and infrastructure management.
       </>
