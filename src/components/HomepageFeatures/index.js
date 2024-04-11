@@ -193,7 +193,7 @@ export function Solutions() {
     <h1 className={styles.center}>Solutions</h1>
     <p className={styles.text_solutions}>We leverage open-source software from the Cloud Native Computing Foundation (CNCF), the Apache Foundation, and major distributors such as SUSE and Confluent.</p>
     <p className={styles.text_solutions}><b>Methods:</b> Open Source Development | Software Engineering | DevOps | DevSecOps | SCRUM | Cloud Native Architectures | Hybrid Architectures | Kappa Architectures</p>
-    <p className={styles.text_solutions}><b>Provider:</b> CNCF | Apache | SUSE | Rancher | Confluent | Imply | Pure | Storage | Google Cloud Platform | AWS | Microsoft Azure</p>
+    <p className={styles.text_solutions}><b>Provider:</b> CNCF | Apache | SUSE | Rancher | OpenShift | Confluent | Imply | Pure | Storage | Google Cloud Platform | AWS | Microsoft Azure</p>
     <p className={styles.text_solutions}><b>Software:</b> Kubernetes | Docker | Prometheus | Grafana | Istio | Rancher | Github | Apache Druid | Apache Kafka | Click House | S3 Storage</p>
     <div className={styles.buttons}>
       <div className="text--center">
