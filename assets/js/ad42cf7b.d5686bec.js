@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[6519],{2625:e=>{e.exports=JSON.parse('{"label":"Python3","permalink":"/blog/tags/python-3","allTagsPath":"/blog/tags","count":2}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[8664],{4364:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/python-3","page":1,"postsPerPage":2,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"KubeSpectra Blog"}')}}]);
