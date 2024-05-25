@@ -59,6 +59,7 @@ const config = {
         items: [
           {to: '/docs/projects', label: 'Projects', position: 'left'},
           {to: '/docs/service', label: 'Service', position: 'left'},
+          {to: '/docs/events', label: 'Events', position: 'left'},
           {to: '/docs/team', label: 'Team', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'}, 
         ],
