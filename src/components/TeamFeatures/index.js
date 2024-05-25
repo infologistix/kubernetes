@@ -47,9 +47,9 @@ const FeatureList = [
     image: MariesImageUrl,
     description: (
       <>
-        Marie, a Computer Science graduate, is a versatile DevOps and AI Engineer. With her focus on Machine Learning, especially Natural Language Processing and Cloud Native, she brings a unique blend of skills and expertise 
-        to her work. Her certifications in AWS and Rancher validate her proficiency in cloud computing and container management. Marie's dedication to staying at the forefront of technology ensures she remains a 
-        valuable asset in delivering innovative and efficient solutions in the field of data science and infrastructure management.
+        Marie Padberg is a Computer Science graduate and works as a DevOps and AI Engineer at infologistix GmbH. She is passionate about exploring and deepening her knowledge of Kubernetes and its related security mechanisms, 
+        as well as Natural Language Processing. Marie supports clients in developing secure container platforms based on Kubernetes, designing clusters, integrating services like container build pipelines, and linking user 
+        management systems. Her certifications in SUSE Rancher and SUSE NeuVector validate her expertise in cloud computing and container management. Additionally, Marie provides training to teams on cloud-native technologies.
       </>
     ),
   },
