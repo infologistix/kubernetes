@@ -9,7 +9,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 ## Current Events
 ### TDWI München 2024
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
-  <summary>Open Source im Gesundheitsbereich? Ja, Open <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
+  <summary>Open Source im Gesundheitsbereich? Ja, Open Source! <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>Zusammen mit der GWQ ServicePlus AG zeigen wir, wie durch eine All-In-One-Open-Source-Lösung auf Basis von Kubernetes datenschutzkonforme und sichere Anwendungen nach neusten Standards entwickelt werden können. <br /><br />
         Viele Unternehmen stehen vor der Frage: Make (offene Lösung auf Open-Source-Basis) or Buy (anpassbare Insellösung)? Gerade im Gesundheitsbereich spielen Daten-Sicherheitsaspekte eine große Rolle, daher wird in 
