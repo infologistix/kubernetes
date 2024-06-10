@@ -51,7 +51,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
         ermöglichen die Durchsetzung von Richtlinien und Beschränkungen bei der Erstellung von Ressourcen sowie der Konfiguration von Objekten. Der Überprüfungsprozess erfolgt beim Einreichen neuer Ressourcen oder Aktualisierungen beim Kubernetes-API-Server. <br /> <br />
         Eine gängige Methode zur Umsetzung von Admission Controls besteht in der Aktivierung der Pod Admission Controller, die von Kubernetes bereitgestellt werden. In diesem Kontext stellt sich die Frage, ob diese Lösung den generellen Anforderungen an Admission Controls genügt oder ob es sinnvoll ist, zusätzliche Tools wie SUSE NeuVector oder Kyverno einzusetzen. <br /> <br />
         Das Hauptziel der Präsentation liegt in der eingehenden Gegenüberstellung dieser drei genannten Technologien. Dabei wird herausgearbeitet, in welchen Bereichen sich diese überschneiden und welche Alleinstellungsmerkmale sie bieten. Abschließend wird ein Szenario vorgestellt, das eine kombinierte Nutzung aller drei Technologien demonstriert. Dies ermöglicht nicht nur die optimale Ausnutzung der Vorteile jeder einzelnen Technologie, sondern auch die Ausbalancierung ihrer jeweiligen Nachteile. <br /> <br />
-        <b> Freitag, 20.06. 15:00 - 15:45, Stage 2 </b> <br />
+        <b> Donnerstag, 20.06. 15:00 - 15:45, Stage 2 </b> <br />
         Speaker: Marie Padberg <br />
         <a style={{color:"#6CA8B7"}} href="https://meine.doag.org/events/cloudland/2024/agenda/#agendaId.4202">Konferenzprogramm</a>
         </div>
