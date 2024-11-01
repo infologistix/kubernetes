@@ -85,14 +85,38 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
   </div>
 </details>
 
+### SUSE Summit 2024 in Frankfurt
+<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+  <summary>Open Source im Gesundheitsbereich? Ja, Open Source! <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/>
+  <br /><br /> Praxisbericht Gesundheitswesen: Sichere Anwendungsentwicklung für 20 Millionen Versicherte auf Basis von Kubernetes und Open Source</summary>
+  <div>
+    <div>Zusammen mit der GWQ ServicePlus AG zeigen wir, wie durch eine All-In-One-Open-Source-Lösung auf Basis von Kubernetes datenschutzkonforme und sichere Anwendungen nach neusten Standards entwickelt werden können. <br /><br />
+        Viele Unternehmen stehen vor der Frage: Make (offene Lösung auf Open-Source-Basis) or Buy (anpassbare Insellösung)? Gerade im Gesundheitsbereich spielen Daten-Sicherheitsaspekte eine große Rolle, daher wird in 
+        diesem Vortrag aufgezeigt, wie diese Sicherheit mit Open Source gewährleistet werden kann. Die GWQ ServicePlus AG als Tochter gesetzlicher Krankenkassen hat dazu eine hochsichere Open-Source-Kubernetes-Plattform eingerichtet - mit dem Ziel: Public Cloud.<br /><br />
+        Das Ziel ist die Bereitstellung einer hochsicheren Produktiv-Umgebung, damit Anwendungen und Apps für die über 20 Mio. Versicherten der mittelständischen Kranken- und Innungskassen in der Public Cloud zur Verfügung gestellt werden können. <br /><br />
+        Kernelemente sind SUSE Rancher, mit dem Cluster übersichtlich gemanagt werden können, sowie SUSE NeuVector, mit dem die Umsetzung eines Sicherheitskonzeptes nach DSGVO möglich ist. <br /><br />
+        Der wesentliche Baustein ist jedoch das neu eingeführte DevSecOps (Development, Security & Operations)-Konzept, mit dem klar definiert wird, wo welche Verantwortlichkeiten und Aufgaben liegen. 
+        Auf diese Weise wurde ein Strukturwandel angestoßen, der unter anderem kleinere Inkremente für Anwendungen ermöglicht, das heißt, ein Update einer Anwendung ist in kürzester Zeit umsetzbar - mögliche 
+        Sicherheitslücken können sofort geschlossen werden. <br /><br />
+        Die Bereitstellung dieser komplett neuen hochsicheren Entwicklungsumgebung mit entsprechenden Entwicklungssystemen und Security- und Observability-Tools On-Premise erfolgte innerhalb von drei Monaten. 
+        Dabei wurde die komplette Installation portabel gestaltet, sodass sich mit dieser Installation eine Portierung in die Public Cloud ermöglichen lässt.
+        <br /> <br />
+        <b>Mittwoch, 06.11. 15:30 - 16.15 </b> <br />
+        Speaker: Raphael Vadakkeparambil, Marie Padberg <br />
+         <a style={{color:"#6CA8B7"}} href="https://susesummit.de/topics/">Konferenzprogramm</a>
+        </div>
+  </div>
+</details>
+
 ### Container Lifecycle/Container Conf in Mannheim
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Safeguarding Kubernetes: Pod Security Admissions, NeuVector & Kyverno im Ring <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>Admission Controls sind zentral für die Sicherheit und Zuverlässigkeit von Kubernetes, indem sie Richtlinien bei der Ressourcenerstellung durchsetzen. Diese werden bei der Submission an den Kubernetes API-Server geprüft und eine Option sind die Pod Admission Controller von Kubernetes. Dabei stellt sich die Frage, ob diese ausreichen oder ob der Einsatz zusätzlicher Tools wie SUSE NeuVector oder Kyverno sinnvoll ist. <br /><br />
     Der Vortrag vergleicht diese Technologien, analysiert Überschneidungen und identifiziert Alleinstellungsmerkmale. Abschließend wird ein Szenario gezeigt, das die kombinierte Anwendung aller drei Technologien zeigt, um deren Vorteile optimal zu nutzen und Nachteile auszugleichen. <br />
-    <b>Zeit: tba </b> <br />
-    Speaker: Marie Padberg 
+    <b>Zeit: Mittwoch, 13.11. 16:30 - 17:00 </b> <br />
+    Speaker: Marie Padberg <br />
+    <a style={{color:"#6CA8B7"}} href="https://www.continuouslifecycle.de/programm.php#pgpart2">Konferenzprogramm</a>
     </div>
   </div>
 </details>
