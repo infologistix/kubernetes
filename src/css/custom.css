@@ -19,6 +19,7 @@
   --ifm-footer-color: white;
   --ifm-footer-link-hover-color: white;
   --ifm-footer-padding-vertical: 3rem;
+  --ifm-font-size-base: clamp(10px, 2vw, 17px);
   /*--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);*/
 }
 
