@@ -3,10 +3,39 @@ sidebar_position: 3
 ---
 # Events
 
-Interested in meeting us or just want to hear exciting insights on cloud-native topics? Then join our talks! 
+Interested in meeting us or just want to hear exciting insights on cloud-native topics? Then join our talks and workshops! 
 
 
 ## Current Events
+
+### CloudLand 2025 im Heide Park Soltau
+<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+  <summary>Advanced Kyverno Workshop: Debugging, Testing, und Überwachung <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
+  <div>
+    <div>Kyverno hat sich als führende Policy-Engine für Kubernetes etabliert. Die breite Nutzung hat dazu geführt, dass viele die Grundlagen von Kyverno bereits beherrschen und einfache Validierungsregeln problemlos implementieren können. 
+        Doch was, wenn es um komplexere Herausforderungen geht? Wie debuggt man fortgeschrittene Regeln oder testet sie automatisiert? <br /><br />
+        In diesem Workshop steigen wir tiefer in die Welt von Kyverno ein und vermitteln fortgeschrittene Kenntnisse, die über die Grundlagen hinausgehen. Wir beginnen mit der Implementierung komplexer Validierungsregeln und lernen dabei verschiedene Debugging-Methoden kennen. Dabei widmen wir uns sowohl dem Kyverno CLI als auch dem automatisierten Testen unserer Regeln, um ihre Zuverlässigkeit sicherzustellen. Anschließend analysieren wir die Ergebnisse der Validierungsregeln u.A. mithilfe des Policy Reporters, einem Sub-Projekt von Kyverno, das eine umfassende Überwachung und Verwaltung der Policy-Resultate ermöglicht.
+        Dieser Workshop richtet sich an alle, die Kyverno bereits nutzen und ihre Fähigkeiten auf das nächste Level bringen wollen, um die Admission Controls ihrer Kubernetes-Umgebungen zu verbessern. <br /> <br />
+         <b> Mittwoch, 02.07. 15:00 - 16:45, Cloudspace 4 Red Hat </b> <br />
+         Speaker: Marie Padberg <br />
+         <a style={{color:"#6CA8B7"}} href="https://meine.doag.org/events/cloudland/2025/agenda/#agendaId.5764">Konferenzprogramm</a>
+         </div>
+  </div>
+</details>
+
+<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+  <summary>Unlocking Cloud & DevOps in Regulated Industries <img src={require("./united-kingdom-flag-png-large.png").default} alt="GB Flag"/></summary>
+  <div>
+    <div>Regulated industries like banking and insurance are rapidly shifting to cloud-native technologies and platform engineering to enhance agility, scalability, and resilience. While this transformation offers new opportunities, it also presents considerable challenges, as it disrupts traditional workflows in favor of agile, DevOps-driven methodologies. Specifically, the adoption of DevOps fosters closer collaboration between previously siloed development and operations teams. Developers, in particular, face shifting expectations and mounting pressure due to accelerated release cycles, constantly evolving compliance mandates, and heightened demands for security and technical proficiency. These complexities can result in initial resistance toward agile practices and cloud technologies. To ensure a successful transformation, organizations must consider not only technical challenges but also cultural dimensions of change. This session explores how transparency in security and compliance fosters trust, addressing concerns and enabling developers to fully embrace agile workflows. Through a case study from the banking sector [anonymized], I showcase practical strategies to sustain momentum and navigate resistance effectively. By positioning trust as a catalyst for change, organizations in regulated industries—and beyond—can unlock the full potential of DevOps and cloud adoption, driving both cultural and technological transformation. <br /> <br />
+        <b> Donnerstag, 03.07. 18:00 - 18:45, Stage Schatzinsel </b> <br />
+        Speaker: Nicole Philippczyck<br />
+        <a style={{color:"#6CA8B7"}} href="https://meine.doag.org/events/cloudland/2025/agenda/#agendaId.5855">Konferenzprogramm</a>
+        </div>
+  </div>
+</details>
+
+## Past Events
+
 ### TDWI München 2024
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Open Source im Gesundheitsbereich? Ja, Open Source! <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
@@ -121,7 +150,6 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
   </div>
 </details>
 
-## Past Events
 
 ### TDWI München 2023
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
@@ -136,7 +164,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
   </div>
 </details>
 
-### Cloudland
+### Cloudland 2023
 <details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
   <summary>Automatisiert kontinuierliche Qualitätssicherung in komplexen PaaS-Systemen <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
