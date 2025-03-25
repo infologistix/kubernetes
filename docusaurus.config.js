@@ -35,6 +35,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
         },
         blog: {
@@ -57,10 +58,7 @@ const config = {
       navbar: {
         title: 'Home',
         items: [
-          {to: '/docs/projects', label: 'Projects', position: 'left'},
-          {to: '/docs/service', label: 'Service', position: 'left'},
-          {to: '/docs/events', label: 'Events', position: 'left'},
-          {to: '/docs/team', label: 'Team', position: 'left'},
+          {to: '/events', label: 'Events', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'}, 
         ],
       },

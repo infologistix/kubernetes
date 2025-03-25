@@ -30,4 +30,5 @@ const sidebars = {
    */
 };
 
-module.exports = sidebars;
+// Disable Sidecar
+//module.exports = sidebars;
