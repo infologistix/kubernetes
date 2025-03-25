@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[913],{9460:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/azure","page":1,"postsPerPage":3,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"KubeSpectra Blog"}')}}]);

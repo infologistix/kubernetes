@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[634],{192:(e,t,u)=>{u.r(t),u.d(t,{default:()=>s});var n=u(6540);function s(){return(0,n.useEffect)((()=>{window.location.href="https://kubespectra.io"}),[]),null}}}]);

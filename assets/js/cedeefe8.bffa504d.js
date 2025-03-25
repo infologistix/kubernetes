@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkkubernetes=self.webpackChunkkubernetes||[]).push([[2140],{550:e=>{e.exports=JSON.parse('{"label":"Confluent","permalink":"/blog/tags/confluent","allTagsPath":"/blog/tags","count":1}')}}]);
