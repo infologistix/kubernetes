@@ -9,7 +9,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 ## Current Events
 
 ### CloudLand 2025 im Heide Park Soltau
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Advanced Kyverno Workshop: Debugging, Testing, und Überwachung <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>Kyverno hat sich als führende Policy-Engine für Kubernetes etabliert. Die breite Nutzung hat dazu geführt, dass viele die Grundlagen von Kyverno bereits beherrschen und einfache Validierungsregeln problemlos implementieren können. 
@@ -23,7 +23,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
   </div>
 </details>
 
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Unlocking Cloud & DevOps in Regulated Industries <img src={require("./united-kingdom-flag-png-large.png").default} alt="GB Flag"/></summary>
   <div>
     <div>Regulated industries like banking and insurance are rapidly shifting to cloud-native technologies and platform engineering to enhance agility, scalability, and resilience. While this transformation offers new opportunities, it also presents considerable challenges, as it disrupts traditional workflows in favor of agile, DevOps-driven methodologies. Specifically, the adoption of DevOps fosters closer collaboration between previously siloed development and operations teams. Developers, in particular, face shifting expectations and mounting pressure due to accelerated release cycles, constantly evolving compliance mandates, and heightened demands for security and technical proficiency. These complexities can result in initial resistance toward agile practices and cloud technologies. To ensure a successful transformation, organizations must consider not only technical challenges but also cultural dimensions of change. This session explores how transparency in security and compliance fosters trust, addressing concerns and enabling developers to fully embrace agile workflows. Through a case study from the banking sector [anonymized], I showcase practical strategies to sustain momentum and navigate resistance effectively. By positioning trust as a catalyst for change, organizations in regulated industries—and beyond—can unlock the full potential of DevOps and cloud adoption, driving both cultural and technological transformation. <br /> <br />
@@ -37,7 +37,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 ## Past Events
 
 ### TDWI München 2024
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Open Source im Gesundheitsbereich? Ja, Open Source! <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>Zusammen mit der GWQ ServicePlus AG zeigen wir, wie durch eine All-In-One-Open-Source-Lösung auf Basis von Kubernetes datenschutzkonforme und sichere Anwendungen nach neusten Standards entwickelt werden können. <br /><br />
@@ -59,7 +59,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 </details>
 
 ### SUSECON 2024 in Berlin
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Automating Branching with Github and Rancher Fleet - Provision a full environment with one click <img src={require("./united-kingdom-flag-png-large.png").default} alt="GB Flag"/></summary> 
   <div>
     <div>What would be better for agile development than getting a complete new environment with namespaces, databases, etc. as soon as a new branch is created? Well, maybe the automatic building, testing and deploying 
@@ -73,7 +73,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 </details>
 
 ### CloudLand 2024 im Phantasialnd (Brühl)
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Safeguarding Kubernetes: Pod Security Admission, NeuVector & Kyverno im Ring <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>Die Implementierung von Admission Controls stellt eine wesentliche Komponente in Kubernetes dar, um die Sicherheit und Zuverlässigkeit des Clusters zu gewährleisten. Diese Kontrollmechanismen 
@@ -87,7 +87,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
   </div>
 </details>
 
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Entwicklungsumgebung auf Knopfdruck <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>Was wäre schöner für agile Entwicklung, als direkt mit der Erstellung eines neuen Branches auch eine komplette neue Umgebung mit Namespaces, Datenbanken etc. zu erhalten? <br /> <br />
@@ -102,7 +102,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 </details>
 
 ### ContainerDays Conference 2024 in Hamburg
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Safeguarding Kubernetes: Pod Security Admission, NeuVector & Kyverno in the Ring <img src={require("./united-kingdom-flag-png-large.png").default} alt="GB Flag"/></summary>
   <div>
     <div>Implementing Admission Controls is crucial in Kubernetes, ensuring cluster security and reliability by enforcing policies and restrictions on resource creation and object configuration. Activating Kubernetes' Pod Admission Controller is a typical approach for this purpose. However, it prompts consideration of whether this solution meets general requirements or if additional tools like SUSE NeuVector or Kyverno are advisable. <br /><br />
@@ -115,7 +115,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 </details>
 
 ### SUSE Summit 2024 in Frankfurt
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Open Source im Gesundheitsbereich? Ja, Open Source! <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/>
   <br /><br /> Praxisbericht Gesundheitswesen: Sichere Anwendungsentwicklung für 20 Millionen Versicherte auf Basis von Kubernetes und Open Source</summary>
   <div>
@@ -138,7 +138,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 </details>
 
 ### Container Lifecycle/Container Conf in Mannheim
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Safeguarding Kubernetes: Pod Security Admissions, NeuVector & Kyverno im Ring <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>Admission Controls sind zentral für die Sicherheit und Zuverlässigkeit von Kubernetes, indem sie Richtlinien bei der Ressourcenerstellung durchsetzen. Diese werden bei der Submission an den Kubernetes API-Server geprüft und eine Option sind die Pod Admission Controller von Kubernetes. Dabei stellt sich die Frage, ob diese ausreichen oder ob der Einsatz zusätzlicher Tools wie SUSE NeuVector oder Kyverno sinnvoll ist. <br /><br />
@@ -152,7 +152,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 
 
 ### TDWI München 2023
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Cloud-Kommunikation hinter Schloss & Riegel <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>
@@ -165,7 +165,7 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
 </details>
 
 ### Cloudland 2023
-<details style={{backgroundColor:"#31319630", border: "1px solid #313196", color:"white"}}>
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
   <summary>Automatisiert kontinuierliche Qualitätssicherung in komplexen PaaS-Systemen <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
   <div>
     <div>In komplexen und hochsicheren multiregionalen Kubernetes-Umgebungen müssen Wartungsaufgaben und Updates im laufenden Betrieb durchgeführt werden. Hierzu hat die infologistix ein kontinuierliches, umfassendes und nachhaltiges Qualitätssicherungsverfahren entworfen und bei Kunden erfolgreich etabliert. Technisch gesehen nutzt es neben custom-build Data Agents unter anderem bestehende Logs und Metriken von Diensten wie dem k8s-API-Server, Prometheus und Grafana. <br /><br />

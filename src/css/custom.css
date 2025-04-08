@@ -8,23 +8,24 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 :root {
-  --ifm-background-color: black;
-  --ifm-color-primary: #214186;
-  --ifm-color-secondary: #6CA8B7;
-  --ifm-font-color-base: white;
-  --ifm-link-color: #6CA8B7;
-  --ifm-navbar-background-color: black;
+  --ifm-background-color: #080F19;
+  --ifm-color-primary: #74AEBE;
+  --ifm-color-secondary: #74AEBE;
+  --ifm-font-color-base: #B5B3B3;
+  --ifm-link-color: #74AEBE;
+  --ifm-navbar-background-color: #080F19;
   --ifm-navbar-link-color: white;
-  --ifm-footer-background-color: #214186;  /*#214186; linear-gradient(45deg, #214186, black) */ 
+  --ifm-footer-background-color: #74AEBE;  /*#214186; linear-gradient(45deg, #214186, black) */ 
   --ifm-footer-color: white;
   --ifm-footer-link-hover-color: white;
   --ifm-footer-padding-vertical: 3rem;
+  --heading-color: white;
   /*--ifm-font-size-base: clamp(14px, 2.5vw, 17px)*/
   /*--docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);*/
 }
 
 footer {
-  background-image: linear-gradient(0deg, #214186, black 98%);
+  background-image: linear-gradient(0deg, #0B1928, #080F19 98%);
 }
 
 aside {
@@ -37,4 +38,18 @@ aside {
 
 .menu__link:hover {
   color: #6CA8B7;
+}
+
+h1, h2 {
+  color: var(--heading-color) !important;
+}
+
+/* Change header color in Blog*/
+article header h2 a {
+  color: white; 
+}
+
+/* Change Color 'Recent Posts' in Blog*/
+[class^="sidebarItemTitle_node_modules-@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module"] {
+  color: white !important;
 }
