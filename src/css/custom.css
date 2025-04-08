@@ -50,6 +50,7 @@ article header h2 a {
 }
 
 /* Change Color 'Recent Posts' in Blog*/
-[class^="sidebarItemTitle_node_modules-@docusaurus-theme-classic-lib-theme-BlogSidebar-Desktop-styles-module"] {
-  color: white !important;
+/* Sidebar: Recent Posts Text */
+aside nav div {
+  color: white;
 }
