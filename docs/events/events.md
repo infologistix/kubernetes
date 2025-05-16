@@ -34,6 +34,34 @@ Interested in meeting us or just want to hear exciting insights on cloud-native 
   </div>
 </details>
 
+### ContainerDays Conference 2025 in Hamburg
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
+  <summary>Kyverno Workshop: Debugging, Testing, and Monitoring <img src={require("./united-kingdom-flag-png-large.png").default} alt="GB Flag"/></summary>
+  <div>
+    <div>Kyverno has established itself as the leading policy engine for Kubernetes. Its widespread adoption means that many users are already familiar with the basics and can easily implement simple validation rules.
+        But what happens when facing more complex challenges? How do you debug advanced rules or test them in an automated way?<br />
+        In this workshop, we dive deeper into the world of Kyverno, providing advanced knowledge beyond the fundamentals. We start by implementing complex validation rules while exploring various debugging methods. This includes working with the Kyverno CLI and automating rule testing to ensure reliability. Next, we analyze validation rule results using tools such as the Policy Reporter, a Kyverno sub-project that enables comprehensive monitoring and management of policy outcomes.<br />
+        This workshop is designed for those already using Kyverno who want to take their skills to the next level and enhance the admission controls of their Kubernetes environments. <br /><br />
+    <b> Time: TBA </b> <br />
+    Speaker: Marie Padberg <br />
+    <a style={{color:"#6CA8B7"}} href="https://www.containerdays.io/containerdays-conference-2024/agenda/">Conference Program</a>
+    </div>
+  </div>
+</details>
+
+### Container Lifecycle/Container Conf 2025 in Mannheim
+<details style={{backgroundColor:"#0B1928", border: "1px solid #0B1928", color:"#B5B3B3"}}>
+  <summary>Kyverno Deep Dive: Policies debuggen, testen und überwachen <img src={require("./germany-flag-png-large.png").default} alt="GER Flag"/></summary>
+  <div>
+    <div>Kyverno ist heute die führende Policy-Engine für Kubernetes-Cluster. Während das Umsetzen einfacher Validierungsregeln mittlerweile zur Routine gehört, stellen komplexere Anforderungen eine deutlich höhere Herausforderung dar. Wie debuggt man umfangreiche Policies effizient? Wie automatisiert man das Testen neuer Regeln? Und wie lassen sich Policy-Resultate im Betrieb zuverlässig überwachen? <br />
+    In dieser Live-Demo zeige ich praxisnah Techniken im Umgang mit Kyverno: Ich demonstriere die Implementierung komplexer Validierungsregeln, stelle verschiedene Debugging-Strategien vor und erläutere, wie das Kyverno CLI sowie automatisierte Testverfahren zur Qualitätssicherung eingesetzt werden können.<br /><br />
+    <b>Zeit: TBA </b> <br />
+    Speaker: Marie Padberg <br />
+    <a style={{color:"#6CA8B7"}} href="https://www.continuouslifecycle.de/programm.php#pgpart2">Konferenzprogramm</a>
+    </div>
+  </div>
+</details>
+
 ## Past Events
 
 ### TDWI München 2024
